@@ -61,7 +61,7 @@ footer{color:var(--muted);font-size:12px;text-align:center}
 <div class="wrap">
   <header>
     <h1>Klangwerk – Kanal-Dashboard</h1>
-    <p class="lead">Stand: <span id="stand">—</span> · Tageswerte: letzte 28 Tage</p>
+    <p class="lead">Stand: <span id="stand">—</span> · wird jeden Morgen automatisch aktualisiert</p>
   </header>
 
   <nav class="tabs" role="tablist">
@@ -75,11 +75,11 @@ footer{color:var(--muted);font-size:12px;text-align:center}
       <div class="card"><div class="lbl">Abonnenten gesamt</div><div class="num" data-k="abos_gesamt">—</div><div class="sub"><span data-k="abos_28t" data-signed="1">—</span> in 28 Tagen</div></div>
       <div class="card"><div class="lbl">Aufrufe · letzte 28 Tage</div><div class="num" data-k="aufrufe_28t">—</div><div class="sub">seit Start: <span data-k="aufrufe_gesamt">—</span></div></div>
       <div class="card"><div class="lbl">Wiedergabezeit · 28 Tage</div><div class="num"><span data-k="stunden_28t" data-dec="1">—</span> h</div><div class="sub">seit Start: <span data-k="stunden_gesamt" data-dec="1">—</span> h</div></div>
-      <div class="card"><div class="lbl">Neue Zuschauer</div><div class="num"><span data-k="neue_zuschauer_pct">—</span> %</div><div class="sub">sehen den Kanal zum ersten Mal</div></div>
+      <div class="card"><div class="lbl">⌀ angeschaut · 28 Tage</div><div class="num"><span data-k="gesehen_pct_28t" data-dec="1">—</span> %</div><div class="sub">so viel von einem Video wird im Schnitt gesehen</div></div>
     </div>
-    <div class="card"><h2>Aufrufe pro Tag</h2><div class="chart" data-chart="tage"></div><p class="note">Tipp auf einen Balken, um die Werte zu sehen. Ab 07.11. kamen die Shorts dazu – seitdem deutlich mehr Aufrufe.</p></div>
+    <div class="card"><h2>Aufrufe pro Tag <span class="sub" data-zeitraum></span></h2><div class="chart" data-chart="tage"></div><p class="note">Tipp auf einen Balken, um die Werte zu sehen.</p></div>
     <div class="two">
-      <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe seit Kanalstart (17.10.2026).</p></div>
+      <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe seit Kanalstart.</p></div>
       <div class="card"><h2>Alle Videos &amp; Shorts</h2><div class="tw"><table><thead><tr><th>Titel</th><th>Art</th><th class="n">Aufrufe</th><th class="n">Std.</th><th class="n">⌀ gesehen</th></tr></thead><tbody data-table></tbody></table></div><p class="note">Seit Kanalstart. „⌀ gesehen“ = wie viel vom Video im Schnitt angeschaut wird.</p></div>
     </div>
   </section>
@@ -93,7 +93,7 @@ footer{color:var(--muted);font-size:12px;text-align:center}
       <div class="card"><div class="lbl">Aufrufe Kinderlieder · 28 Tage</div><div class="num" data-anteil="aufrufe">—</div><div class="sub">Videos + Shorts</div></div>
     </div>
     <p class="note">Der Kanal hat viele alte Abonnenten aus der Minecraft-/TUT-TUT-Zeit. Die verliert er langsam – das erklärt das Minus bei den Abos.</p>
-    <div class="card"><h2>Aufrufe pro Tag</h2><div class="chart" data-chart="tage"></div><p class="note">Tipp auf einen Balken, um die Werte zu sehen. Am 07. und 08.11. gab es einen Sprung durch die ersten Kinderlied-Shorts.</p></div>
+    <div class="card"><h2>Aufrufe pro Tag <span class="sub" data-zeitraum></span></h2><div class="chart" data-chart="tage"></div><p class="note">Tipp auf einen Balken, um die Werte zu sehen.</p></div>
     <div class="two">
       <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe der letzten 28 Tage.</p></div>
       <div class="card"><h2>Meistgesehene Videos · 28 Tage</h2><div class="tw"><table><thead><tr><th>Titel</th><th>Art</th><th class="n">Aufrufe</th><th class="n">Std.</th><th class="n">⌀ gesehen</th></tr></thead><tbody data-table></tbody></table></div><p class="note">Über 100 % bei Shorts heißt: Kinder schauen sie mehrmals hintereinander.</p></div>
@@ -197,6 +197,7 @@ function zahlen(sec, kanal) {
     if (e.dataset.signed && v != null) { t = (v > 0 ? '+' : '') + t; e.classList.toggle('good', v > 0); e.classList.toggle('bad', v < 0); }
     e.textContent = t;
   });
+  sec.querySelectorAll('[data-zeitraum]').forEach((e) => { const z = (DATA.zeitraum || {})[kanal]; const r = DATA.taeglich.filter((x) => x.kanal === kanal); const von = z ? z.von : (r[0] || {}).datum, bis = z ? z.bis : (r[r.length - 1] || {}).datum; e.textContent = von ? '· ' + tag(von) + '–' + tag(bis) : ''; });
   const rows = DATA.taeglich.filter((r) => r.kanal === kanal);
   const best = rows.reduce((a, b) => (b.aufrufe > a.aufrufe ? b : a), rows[0]);
   sec.querySelectorAll('[data-best]').forEach((e) => { e.textContent = e.dataset.best === 'datum' ? tag(best.datum) : fmt(best.aufrufe); });
@@ -224,6 +225,7 @@ function zeige(id) {
   if (DATA) zeichne();
 }
 document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => zeige(t.dataset.tab)));
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (h === 'kids' || h === 'music') zeige(h); });
 let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => DATA && zeichne(), 150); });
 
 fetch('daten.json?v=' + Date.now()).then((r) => r.json()).then((d) => {

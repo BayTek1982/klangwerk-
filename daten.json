@@ -732,15 +732,26 @@
    "stunden_28t": 36.0,
    "aufrufe_gesamt": 1688,
    "stunden_gesamt": 38.3,
-   "neue_zuschauer_pct": 98
+   "gesehen_pct_28t": 32.1
   },
   {
    "kanal": "kids",
    "abos_gesamt": 201672,
    "abos_28t": -92,
    "aufrufe_28t": 613,
-   "stunden_28t": 8.2
+   "stunden_28t": 8.2,
+   "gesehen_pct_28t": 35.8
   }
  ],
- "stand": "15.11.2026"
+ "stand": "15.11.2026",
+ "zeitraum": {
+  "music": {
+   "von": "2026-10-18",
+   "bis": "2026-11-14"
+  },
+  "kids": {
+   "von": "2026-10-18",
+   "bis": "2026-11-14"
+  }
+ }
 }
