@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klangwerk – Kanal-Dashboard</title>
+<meta name="theme-color" content="#0f1115">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎻</text></svg>">
+<style>
+:root{--bg:#0f1115;--panel:#181b22;--line:#2a2f3a;--fg:#eef0f4;--muted:#9aa3b2;--music:#e0b252;--kids:#5bb8f0;--ok:#46c47e;--bad:#ef6b6b;--grid:#252a34}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7f9;--panel:#fff;--line:#e3e6eb;--fg:#15181e;--muted:#5d6675;--music:#b8861f;--kids:#1f87c7;--grid:#eceff3}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 40px;display:flex;flex-direction:column;gap:18px}
+h1{font:400 30px/1.15 Georgia,"Times New Roman",serif;margin:0}
+h2{font-size:16px;font-weight:600;margin:0 0 10px}
+.lead{color:var(--muted);margin:4px 0 0}
+.satz{font-size:16px;margin:0}
+.satz b{font-variant-numeric:tabular-nums}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{font:inherit;cursor:pointer;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+.tab[aria-selected="true"]{background:var(--fg);color:var(--bg)}
+.sec{display:flex;flex-direction:column;gap:18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.lbl{color:var(--muted);font-size:13px}
+.num{font:400 32px/1.2 Georgia,serif;font-variant-numeric:tabular-nums;margin-top:4px}
+.sub{color:var(--muted);font-size:13px}
+.good{color:var(--ok)} .bad{color:var(--bad)}
+.chart{position:relative;min-height:220px}
+.chart svg{display:block;width:100%;height:auto}
+.chart svg text{fill:var(--muted);font-size:12px}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);box-shadow:0 6px 20px rgba(0,0,0,.25);border-radius:8px;padding:5px 9px;font-size:12px;white-space:nowrap;opacity:0;transition:opacity .1s}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600;font-size:12px}
+.n{text-align:right;white-space:nowrap}
+.pill{display:inline-block;font-size:12px;padding:0 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.note{color:var(--muted);font-size:13px;margin:8px 0 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+@media (max-width:420px){.two{grid-template-columns:1fr}}
+footer{color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Klangwerk – Kanal-Dashboard</h1>
+    <p class="lead">Stand: <span id="stand">—</span> · Tageswerte: letzte 28 Tage</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="music" aria-selected="true">🎻 Klangwerk Music</button>
+    <button class="tab" role="tab" data-tab="kids" aria-selected="false">🧸 Klangwerk Kids</button>
+  </nav>
+
+  <section class="sec" id="music">
+    <p class="satz">In den letzten 28 Tagen hatte Klangwerk Music <b data-k="aufrufe_28t">—</b> Aufrufe. Der beste Tag war der <b data-best="datum">—</b> mit <b data-best="aufrufe">—</b> Aufrufen.</p>
+    <div class="tiles">
+      <div class="card"><div class="lbl">Abonnenten gesamt</div><div class="num" data-k="abos_gesamt">—</div><div class="sub"><span data-k="abos_28t" data-signed="1">—</span> in 28 Tagen</div></div>
+      <div class="card"><div class="lbl">Aufrufe · letzte 28 Tage</div><div class="num" data-k="aufrufe_28t">—</div><div class="sub">seit Start: <span data-k="aufrufe_gesamt">—</span></div></div>
+      <div class="card"><div class="lbl">Wiedergabezeit · 28 Tage</div><div class="num"><span data-k="stunden_28t" data-dec="1">—</span> h</div><div class="sub">seit Start: <span data-k="stunden_gesamt" data-dec="1">—</span> h</div></div>
+      <div class="card"><div class="lbl">Neue Zuschauer</div><div class="num"><span data-k="neue_zuschauer_pct">—</span> %</div><div class="sub">sehen den Kanal zum ersten Mal</div></div>
+    </div>
+    <div class="card"><h2>Aufrufe pro Tag</h2><div class="chart" data-chart="tage"></div><p class="note">Ab 07.11. kamen die Shorts dazu – seitdem deutlich mehr Aufrufe.</p></div>
+    <div class="two">
+      <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe seit Kanalstart (17.10.2026).</p></div>
+      <div class="card"><h2>Alle Videos &amp; Shorts</h2><div class="tw"><table><thead><tr><th>Titel</th><th>Art</th><th class="n">Aufrufe</th><th class="n">Std.</th><th class="n">⌀ gesehen</th></tr></thead><tbody data-table></tbody></table></div><p class="note">Seit Kanalstart. „⌀ gesehen“ = wie viel vom Video im Schnitt angeschaut wird.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="kids" hidden>
+    <p class="satz">In den letzten 28 Tagen hatte Klangwerk Kids <b data-k="aufrufe_28t">—</b> Aufrufe – davon kamen <b data-anteil="pct">—</b> % schon von den neuen Kinderliedern. Der beste Tag war der <b data-best="datum">—</b> mit <b data-best="aufrufe">—</b> Aufrufen.</p>
+    <div class="tiles">
+      <div class="card"><div class="lbl">Abonnenten gesamt</div><div class="num" data-k="abos_gesamt">—</div><div class="sub"><span data-k="abos_28t" data-signed="1">—</span> in 28 Tagen</div></div>
+      <div class="card"><div class="lbl">Aufrufe · letzte 28 Tage</div><div class="num" data-k="aufrufe_28t">—</div><div class="sub">alle Videos des Kanals</div></div>
+      <div class="card"><div class="lbl">Wiedergabezeit · 28 Tage</div><div class="num"><span data-k="stunden_28t" data-dec="1">—</span> h</div><div class="sub">alle Videos des Kanals</div></div>
+      <div class="card"><div class="lbl">Aufrufe Kinderlieder · 28 Tage</div><div class="num" data-anteil="aufrufe">—</div><div class="sub">Videos + Shorts</div></div>
+    </div>
+    <p class="note">Der Kanal hat viele alte Abonnenten aus der Minecraft-/TUT-TUT-Zeit. Die verliert er langsam – das erklärt das Minus bei den Abos.</p>
+    <div class="card"><h2>Aufrufe pro Tag</h2><div class="chart" data-chart="tage"></div><p class="note">Am 07. und 08.11. gab es einen Sprung durch die ersten Kinderlied-Shorts.</p></div>
+    <div class="two">
+      <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe der letzten 28 Tage.</p></div>
+      <div class="card"><h2>Meistgesehene Videos · 28 Tage</h2><div class="tw"><table><thead><tr><th>Titel</th><th>Art</th><th class="n">Aufrufe</th><th class="n">Std.</th><th class="n">⌀ gesehen</th></tr></thead><tbody data-table></tbody></table></div><p class="note">Über 100 % bei Shorts heißt: Kinder schauen sie mehrmals hintereinander.</p></div>
+    </div>
+  </section>
+
+  <footer>Daten aus YouTube Studio · klangwerk.kompassapps.de</footer>
+</div>
+
+<script>
+const NS = 'http://www.w3.org/2000/svg';
+const fmt = (v, dec = 0) => (v == null || isNaN(v)) ? '—' : Number(v).toLocaleString('de-DE', {minimumFractionDigits: dec, maximumFractionDigits: dec});
+const tag = (s) => { const [, m, d] = String(s).split('-'); return d + '.' + m + '.'; };
+const el = (name, attrs = {}, parent) => { const e = document.createElementNS(NS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const farbe = (k) => getComputedStyle(document.documentElement).getPropertyValue(k === 'kids' ? '--kids' : '--music').trim();
+let DATA = null;
+
+function niceMax(v) { if (v <= 0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p; }
+
+function tagesChart(box, kanal) {
+  const rows = DATA.taeglich.filter((r) => r.kanal === kanal);
+  box.replaceChildren();
+  const W = Math.max(280, box.clientWidth), H = 220, m = {t: 10, r: 6, b: 26};
+  const max = niceMax(Math.max(...rows.map((r) => r.aufrufe)));
+  const ticks = [0, max / 4, max / 2, max * 3 / 4, max];
+  const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Aufrufe pro Tag, letzte 28 Tage'}, box);
+  const y = (v) => H - m.b - (v / max) * (H - m.t - m.b);
+  // Achsen-Beschriftung links messen
+  let lw = 0; const lbls = ticks.map((t) => { const tx = el('text', {y: y(t) + 4, 'text-anchor': 'end'}, svg); tx.textContent = fmt(t); return tx; });
+  lbls.forEach((t) => { lw = Math.max(lw, t.getComputedTextLength()); });
+  const L = lw + 10; lbls.forEach((t) => t.setAttribute('x', L - 6));
+  ticks.forEach((t) => el('line', {x1: L, x2: W - m.r, y1: y(t), y2: y(t), stroke: 'var(--grid)'}, svg));
+  const step = (W - m.r - L) / rows.length, bw = step * 0.78, col = farbe(kanal);
+  const every = W < 450 ? 7 : 4;
+  rows.forEach((r, i) => {
+    const x = L + i * step + (step - bw) / 2;
+    el('rect', {x, width: bw, y: y(r.aufrufe), height: Math.max(0, y(0) - y(r.aufrufe)), rx: 2, fill: col}, svg);
+    if (i % every === 0) { const t = el('text', {x: x + bw / 2, y: H - 8, 'text-anchor': 'middle'}, svg); t.textContent = tag(r.datum); }
+  });
+  const tip = document.createElement('div'); tip.className = 'tip'; box.appendChild(tip);
+  rows.forEach((r, i) => {
+    const hit = el('rect', {x: L + i * step, width: step, y: m.t, height: H - m.t - m.b, fill: 'transparent'}, svg);
+    const show = (ev) => {
+      tip.textContent = `${tag(r.datum)}: ${fmt(r.aufrufe)} Aufrufe · ${fmt(r.stunden, 1)} h · Abos ${r.abos > 0 ? '+' : ''}${r.abos}`;
+      const b = box.getBoundingClientRect(); const px = ev.clientX - b.left, py = ev.clientY - b.top;
+      const tw = tip.offsetWidth; tip.style.left = Math.min(Math.max(0, px - tw / 2), box.clientWidth - tw) + 'px';
+      tip.style.top = Math.max(0, py - 42) + 'px'; tip.style.opacity = 1;
+    };
+    hit.addEventListener('pointerenter', show); hit.addEventListener('pointermove', show);
+    hit.addEventListener('pointerleave', () => { tip.style.opacity = 0; });
+  });
+}
+
+function quellenChart(box, kanal) {
+  const rows = DATA.quellen.filter((r) => r.kanal === kanal);
+  const total = rows.reduce((s, r) => s + r.aufrufe, 0);
+  box.replaceChildren();
+  const W = Math.max(260, box.clientWidth), rh = 26, H = rows.length * rh + 4;
+  const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Aufrufe nach Zugriffsquelle'}, box);
+  let lw = 0;
+  const labels = rows.map((r, i) => { const t = el('text', {x: 0, y: i * rh + rh / 2 + 4}, svg); t.textContent = r.quelle; return t; });
+  labels.forEach((t) => { lw = Math.max(lw, t.getComputedTextLength()); }); lw += 10;
+  const max = Math.max(...rows.map((r) => r.aufrufe)), avail = Math.max(40, W - lw - 90), col = farbe(kanal);
+  rows.forEach((r, i) => {
+    const w = Math.max(1, r.aufrufe / max * avail);
+    el('rect', {x: lw, y: i * rh + 5, width: w, height: rh - 10, rx: 2, fill: col}, svg);
+    const t = el('text', {x: lw + w + 6, y: i * rh + rh / 2 + 4}, svg);
+    t.textContent = `${fmt(r.aufrufe)} · ${fmt(total ? r.aufrufe / total * 100 : 0)} %`;
+  });
+}
+
+function tabelle(tb, kanal) {
+  tb.replaceChildren();
+  DATA.videos.filter((r) => r.kanal === kanal).sort((a, b) => b.aufrufe - a.aufrufe).forEach((r) => {
+    const tr = document.createElement('tr');
+    const td = (t, c) => { const x = document.createElement('td'); x.textContent = t; if (c) x.className = c; tr.appendChild(x); return x; };
+    td(r.titel);
+    const p = document.createElement('span'); p.className = 'pill'; p.textContent = kanal === 'kids' ? r.kategorie : r.typ; td('').appendChild(p);
+    td(fmt(r.aufrufe), 'n'); td(fmt(r.stunden, 1), 'n'); td(fmt(r.wiedergabe_pct, 1) + ' %', 'n');
+    tb.appendChild(tr);
+  });
+}
+
+function zahlen(sec, kanal) {
+  const u = DATA.ueberblick.find((r) => r.kanal === kanal) || {};
+  sec.querySelectorAll('[data-k]').forEach((e) => {
+    const v = u[e.dataset.k]; let t = fmt(v, +(e.dataset.dec || 0));
+    if (e.dataset.signed && v != null) { t = (v > 0 ? '+' : '') + t; e.classList.toggle('good', v > 0); e.classList.toggle('bad', v < 0); }
+    e.textContent = t;
+  });
+  const rows = DATA.taeglich.filter((r) => r.kanal === kanal);
+  const best = rows.reduce((a, b) => (b.aufrufe > a.aufrufe ? b : a), rows[0]);
+  sec.querySelectorAll('[data-best]').forEach((e) => { e.textContent = e.dataset.best === 'datum' ? tag(best.datum) : fmt(best.aufrufe); });
+  const lieder = DATA.videos.filter((v) => v.kanal === kanal && v.kategorie === 'Kinderlied').reduce((s, v) => s + v.aufrufe, 0);
+  sec.querySelectorAll('[data-anteil]').forEach((e) => {
+    e.textContent = e.dataset.anteil === 'pct' ? fmt(u.aufrufe_28t ? lieder / u.aufrufe_28t * 100 : null, 1) : fmt(lieder);
+  });
+}
+
+function zeichne() {
+  document.querySelectorAll('.sec').forEach((sec) => {
+    if (sec.hidden) return;
+    const k = sec.id;
+    zahlen(sec, k);
+    sec.querySelectorAll('[data-chart="tage"]').forEach((b) => tagesChart(b, k));
+    sec.querySelectorAll('[data-chart="quellen"]').forEach((b) => quellenChart(b, k));
+    sec.querySelectorAll('[data-table]').forEach((t) => tabelle(t, k));
+  });
+}
+
+function zeige(id) {
+  document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.tab === id)));
+  document.querySelectorAll('.sec').forEach((s) => { s.hidden = s.id !== id; });
+  history.replaceState(null, '', '#' + id);
+  if (DATA) zeichne();
+}
+document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => zeige(t.dataset.tab)));
+let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => DATA && zeichne(), 150); });
+
+fetch('daten.json?v=' + Date.now()).then((r) => r.json()).then((d) => {
+  DATA = d;
+  document.getElementById('stand').textContent = d.stand || '—';
+  const h = location.hash.slice(1);
+  zeige(h === 'kids' ? 'kids' : 'music');
+}).catch(() => { document.getElementById('stand').textContent = 'Daten konnten nicht geladen werden'; });
+</script>
+</body>
+</html>

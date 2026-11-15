@@ -1,0 +1,746 @@
+{
+ "taeglich": [
+  {
+   "kanal": "music",
+   "datum": "2026-10-18",
+   "aufrufe": 8,
+   "stunden": 0.3,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-18",
+   "aufrufe": 10,
+   "stunden": 0.2,
+   "abos": -4
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-19",
+   "aufrufe": 10,
+   "stunden": 0.6,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-19",
+   "aufrufe": 7,
+   "stunden": 0.1,
+   "abos": -3
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-20",
+   "aufrufe": 4,
+   "stunden": 0.0,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-20",
+   "aufrufe": 9,
+   "stunden": 0.2,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-21",
+   "aufrufe": 4,
+   "stunden": 0.1,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-21",
+   "aufrufe": 7,
+   "stunden": 0.1,
+   "abos": -5
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-22",
+   "aufrufe": 3,
+   "stunden": 0.0,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-22",
+   "aufrufe": 6,
+   "stunden": 0.0,
+   "abos": -7
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-23",
+   "aufrufe": 9,
+   "stunden": 1.1,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-23",
+   "aufrufe": 11,
+   "stunden": 0.2,
+   "abos": -9
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-24",
+   "aufrufe": 31,
+   "stunden": 1.7,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-24",
+   "aufrufe": 33,
+   "stunden": 0.6,
+   "abos": -6
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-25",
+   "aufrufe": 55,
+   "stunden": 3.6,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-25",
+   "aufrufe": 18,
+   "stunden": 0.3,
+   "abos": -3
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-26",
+   "aufrufe": 54,
+   "stunden": 2.3,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-26",
+   "aufrufe": 11,
+   "stunden": 0.2,
+   "abos": -3
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-27",
+   "aufrufe": 28,
+   "stunden": 1.6,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-27",
+   "aufrufe": 10,
+   "stunden": 0.2,
+   "abos": 0
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-28",
+   "aufrufe": 39,
+   "stunden": 2.1,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-28",
+   "aufrufe": 10,
+   "stunden": 0.1,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-29",
+   "aufrufe": 35,
+   "stunden": 1.7,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-29",
+   "aufrufe": 17,
+   "stunden": 0.2,
+   "abos": -5
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-30",
+   "aufrufe": 21,
+   "stunden": 0.4,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-30",
+   "aufrufe": 5,
+   "stunden": 0.1,
+   "abos": -3
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-10-31",
+   "aufrufe": 33,
+   "stunden": 2.3,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-10-31",
+   "aufrufe": 14,
+   "stunden": 0.1,
+   "abos": -4
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-01",
+   "aufrufe": 18,
+   "stunden": 1.5,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-01",
+   "aufrufe": 12,
+   "stunden": 0.2,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-02",
+   "aufrufe": 40,
+   "stunden": 1.8,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-02",
+   "aufrufe": 9,
+   "stunden": 0.1,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-03",
+   "aufrufe": 40,
+   "stunden": 1.7,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-03",
+   "aufrufe": 7,
+   "stunden": 0.1,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-04",
+   "aufrufe": 19,
+   "stunden": 1.0,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-04",
+   "aufrufe": 22,
+   "stunden": 0.4,
+   "abos": -4
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-05",
+   "aufrufe": 6,
+   "stunden": 0.4,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-05",
+   "aufrufe": 41,
+   "stunden": 0.7,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-06",
+   "aufrufe": 19,
+   "stunden": 1.4,
+   "abos": 1
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-06",
+   "aufrufe": 31,
+   "stunden": 0.3,
+   "abos": -5
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-07",
+   "aufrufe": 151,
+   "stunden": 1.3,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-07",
+   "aufrufe": 133,
+   "stunden": 1.6,
+   "abos": -5
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-08",
+   "aufrufe": 277,
+   "stunden": 1.4,
+   "abos": 1
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-08",
+   "aufrufe": 95,
+   "stunden": 1.0,
+   "abos": -1
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-09",
+   "aufrufe": 216,
+   "stunden": 0.7,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-09",
+   "aufrufe": 26,
+   "stunden": 0.2,
+   "abos": -6
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-10",
+   "aufrufe": 212,
+   "stunden": 0.9,
+   "abos": 3
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-10",
+   "aufrufe": 14,
+   "stunden": 0.2,
+   "abos": -1
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-11",
+   "aufrufe": 179,
+   "stunden": 3.4,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-11",
+   "aufrufe": 9,
+   "stunden": 0.0,
+   "abos": -2
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-12",
+   "aufrufe": 75,
+   "stunden": 0.5,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-12",
+   "aufrufe": 22,
+   "stunden": 0.2,
+   "abos": -1
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-13",
+   "aufrufe": 44,
+   "stunden": 1.5,
+   "abos": 1
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-13",
+   "aufrufe": 8,
+   "stunden": 0.2,
+   "abos": -1
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-14",
+   "aufrufe": 18,
+   "stunden": 0.9,
+   "abos": 1
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-14",
+   "aufrufe": 16,
+   "stunden": 0.2,
+   "abos": -2
+  }
+ ],
+ "videos": [
+  {
+   "kanal": "music",
+   "titel": "In the Hall of the Mountain King – Epic Violin Remix #shorts",
+   "typ": "Short",
+   "laenge": "0:56",
+   "aufrufe": 407,
+   "stunden": 1.2,
+   "abos": 1,
+   "wiedergabe_pct": 36.3,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Uplifting Violin Mix – Energetic Electronic Violin Music (12 Min)",
+   "typ": "Video",
+   "laenge": "12:22",
+   "aufrufe": 217,
+   "stunden": 9.7,
+   "abos": 1,
+   "wiedergabe_pct": 23.4,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Epic Violin Mix – Powerful Boom Bap Violin #shorts",
+   "typ": "Short",
+   "laenge": "0:56",
+   "aufrufe": 178,
+   "stunden": 0.7,
+   "abos": 0,
+   "wiedergabe_pct": 45.7,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Für Elise – Epic Violin Remix #shorts",
+   "typ": "Short",
+   "laenge": "0:56",
+   "aufrufe": 177,
+   "stunden": 0.7,
+   "abos": 3,
+   "wiedergabe_pct": 49.8,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Für Elise Violin Remix – Legends Rising Part 1 & 2",
+   "typ": "Video",
+   "laenge": "9:56",
+   "aufrufe": 167,
+   "stunden": 9.3,
+   "abos": 1,
+   "wiedergabe_pct": 39.9,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Uplifting Violin Mix – Euphoric Dance Violin #shorts",
+   "typ": "Short",
+   "laenge": "0:56",
+   "aufrufe": 165,
+   "stunden": 0.6,
+   "abos": 0,
+   "wiedergabe_pct": 49.7,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Epic Violin Mix – Powerful Cinematic Violin Music (13 Min)",
+   "typ": "Video",
+   "laenge": "13:33",
+   "aufrufe": 109,
+   "stunden": 6.0,
+   "abos": 0,
+   "wiedergabe_pct": 26.1,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Für Elise Violin Remix – Legends Rising Part 3 & 4",
+   "typ": "Video",
+   "laenge": "9:56",
+   "aufrufe": 88,
+   "stunden": 4.6,
+   "abos": 0,
+   "wiedergabe_pct": 43.0,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Für Elise Violin Remix – Legends Rising Part 3 & 4 #shorts",
+   "typ": "Short",
+   "laenge": "0:47",
+   "aufrufe": 78,
+   "stunden": 0.2,
+   "abos": 0,
+   "wiedergabe_pct": 31.3,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "In the Hall of the Mountain King – Epic Violin Remix",
+   "typ": "Video",
+   "laenge": "9:55",
+   "aufrufe": 65,
+   "stunden": 2.9,
+   "abos": 0,
+   "wiedergabe_pct": 43.1,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Minecraft PS4 – Lederrüstung selber einfärben",
+   "typ": "Video",
+   "laenge": "2:19",
+   "aufrufe": 108,
+   "stunden": 1.5,
+   "abos": 0,
+   "wiedergabe_pct": 47.1,
+   "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Alles hat seinen Platz – Aufräumlied #Shorts",
+   "typ": "Short",
+   "laenge": "0:37",
+   "aufrufe": 68,
+   "stunden": 0.3,
+   "abos": 0,
+   "wiedergabe_pct": 80.8,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Alle Tiere haben ein Herz – Kinderlied zum Mitsingen",
+   "typ": "Video",
+   "laenge": "2:59",
+   "aufrufe": 66,
+   "stunden": 0.9,
+   "abos": 0,
+   "wiedergabe_pct": 28.4,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Schrubbi-Schrubb – Zähne putzen mit Spaß! (Short)",
+   "typ": "Short",
+   "laenge": "0:36",
+   "aufrufe": 56,
+   "stunden": 0.5,
+   "abos": 0,
+   "wiedergabe_pct": 254.4,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Minecraft PS4 – So baut man ein Enderportal",
+   "typ": "Video",
+   "laenge": "2:36",
+   "aufrufe": 54,
+   "stunden": 1.4,
+   "abos": -1,
+   "wiedergabe_pct": 60.1,
+   "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Polizei jagt Frederik mit TUT TUT BABY FLITZER",
+   "typ": "Video",
+   "laenge": "1:02",
+   "aufrufe": 39,
+   "stunden": 0.2,
+   "abos": 0,
+   "wiedergabe_pct": 26.3,
+   "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Alle Tiere haben ein Herz – Kinderlied (Short)",
+   "typ": "Short",
+   "laenge": "0:34",
+   "aufrufe": 38,
+   "stunden": 0.1,
+   "abos": 0,
+   "wiedergabe_pct": 102.8,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Vier Jahreszeiten – Kinderlied zum Mitsingen #shorts",
+   "typ": "Short",
+   "laenge": "0:36",
+   "aufrufe": 34,
+   "stunden": 0.2,
+   "abos": 0,
+   "wiedergabe_pct": 142.2,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Vier Jahreszeiten – Kinderlied zum Mitsingen",
+   "typ": "Video",
+   "laenge": "3:00",
+   "aufrufe": 31,
+   "stunden": 0.9,
+   "abos": 0,
+   "wiedergabe_pct": 58.8,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
+   "titel": "TUT TUT BABY Flitzer – Vorstellung von 16 Flitzern",
+   "typ": "Video",
+   "laenge": "3:20",
+   "aufrufe": 18,
+   "stunden": 0.4,
+   "abos": 0,
+   "wiedergabe_pct": 36.8,
+   "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Schrubbi-Schrubb – Zähne putzen mit Spaß! – Kinderlied",
+   "typ": "Video",
+   "laenge": "3:01",
+   "aufrufe": 6,
+   "stunden": 0.1,
+   "abos": 0,
+   "wiedergabe_pct": 38.6,
+   "kategorie": "Kinderlied"
+  }
+ ],
+ "quellen": [
+  {
+   "kanal": "music",
+   "quelle": "Shorts-Feed",
+   "aufrufe": 731
+  },
+  {
+   "kanal": "music",
+   "quelle": "Videovorschläge",
+   "aufrufe": 261
+  },
+  {
+   "kanal": "music",
+   "quelle": "Startseite & Abos",
+   "aufrufe": 253
+  },
+  {
+   "kanal": "music",
+   "quelle": "YouTube-Suche",
+   "aufrufe": 211
+  },
+  {
+   "kanal": "music",
+   "quelle": "Kanalseite",
+   "aufrufe": 97
+  },
+  {
+   "kanal": "music",
+   "quelle": "Playlists",
+   "aufrufe": 38
+  },
+  {
+   "kanal": "music",
+   "quelle": "Extern",
+   "aufrufe": 35
+  },
+  {
+   "kanal": "music",
+   "quelle": "Direkt/unbekannt",
+   "aufrufe": 33
+  },
+  {
+   "kanal": "music",
+   "quelle": "Sonstiges",
+   "aufrufe": 26
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Extern",
+   "aufrufe": 120
+  },
+  {
+   "kanal": "kids",
+   "quelle": "YouTube-Suche",
+   "aufrufe": 110
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Kanalseite",
+   "aufrufe": 96
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Shorts-Feed",
+   "aufrufe": 89
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Startseite & Abos",
+   "aufrufe": 43
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Videovorschläge",
+   "aufrufe": 42
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Playlists",
+   "aufrufe": 37
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Benachrichtigungen",
+   "aufrufe": 29
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Direkt/unbekannt",
+   "aufrufe": 28
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Sonstiges",
+   "aufrufe": 19
+  }
+ ],
+ "ueberblick": [
+  {
+   "kanal": "music",
+   "abos_gesamt": 13,
+   "abos_28t": 7,
+   "aufrufe_28t": 1648,
+   "stunden_28t": 36.0,
+   "aufrufe_gesamt": 1688,
+   "stunden_gesamt": 38.3,
+   "neue_zuschauer_pct": 98
+  },
+  {
+   "kanal": "kids",
+   "abos_gesamt": 201672,
+   "abos_28t": -92,
+   "aufrufe_28t": 613,
+   "stunden_28t": 8.2
+  }
+ ],
+ "stand": "15.11.2026"
+}
