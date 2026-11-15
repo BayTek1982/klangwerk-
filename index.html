@@ -40,8 +40,20 @@ th{color:var(--muted);font-weight:600;font-size:12px}
 .n{text-align:right;white-space:nowrap}
 .pill{display:inline-block;font-size:12px;padding:0 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
 .note{color:var(--muted);font-size:13px;margin:8px 0 0}
-.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
-@media (max-width:420px){.two{grid-template-columns:1fr}}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:900px){.two{grid-template-columns:1fr}}
+/* Handy: Videoliste als Karten statt Tabelle */
+@media (max-width:640px){
+  .tw table,.tw tbody{display:block}
+  .tw thead{display:none}
+  .tw tr{display:grid;grid-template-columns:repeat(3,auto) 1fr;gap:4px 14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+  .tw td{border:0;padding:0;text-align:left}
+  .tw td:first-child{grid-column:1/-1;font-weight:600}
+  .tw td:nth-child(2){grid-column:1/-1}
+  .tw td.n{font-size:13px;color:var(--muted)}
+  .tw td.n::before{content:attr(data-l) " ";color:var(--muted)}
+  .tw td.n b{color:var(--fg);font-weight:600}
+}
 footer{color:var(--muted);font-size:12px;text-align:center}
 </style>
 </head>
@@ -160,7 +172,8 @@ function tabelle(tb, kanal) {
     const td = (t, c) => { const x = document.createElement('td'); x.textContent = t; if (c) x.className = c; tr.appendChild(x); return x; };
     td(r.titel);
     const p = document.createElement('span'); p.className = 'pill'; p.textContent = kanal === 'kids' ? r.kategorie : r.typ; td('').appendChild(p);
-    td(fmt(r.aufrufe), 'n'); td(fmt(r.stunden, 1), 'n'); td(fmt(r.wiedergabe_pct, 1) + ' %', 'n');
+    const zahl = (t, l) => { const c = td('', 'n'); c.dataset.l = l; const b = document.createElement('b'); b.textContent = t; c.appendChild(b); };
+    zahl(fmt(r.aufrufe), 'Aufrufe'); zahl(fmt(r.stunden, 1), 'Std.'); zahl(fmt(r.wiedergabe_pct, 1) + ' %', '⌀ gesehen');
     tb.appendChild(tr);
   });
 }
