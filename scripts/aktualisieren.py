@@ -174,7 +174,13 @@ def kanal_holen(kanal, cfg, heute):
         sek = dauer_sekunden(info.get("contentDetails", {}).get("duration"))
         ist_short = "#short" in titel.lower() or (0 < sek <= 60)
         if kanal == "kids":
-            kategorie = "Kinderlied" if sn.get("publishedAt", "")[:10] >= KINDERLIED_AB else "Alte Videos"
+            tl = titel.lower()
+            if "lied" in tl:
+                kategorie = "Kinderlied"
+            elif sn.get("publishedAt", "")[:10] >= KINDERLIED_AB:
+                kategorie = "Minecraft-Tipp" if "minecraft" in tl else "Neu"
+            else:
+                kategorie = "Alte Videos"
         else:
             kategorie = "Violine"
         t = kurz_titel(titel)
