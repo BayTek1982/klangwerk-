@@ -175,7 +175,8 @@ def kanal_holen(kanal, cfg, heute):
         ist_short = "#short" in titel.lower() or (0 < sek <= 60)
         if kanal == "kids":
             tl = titel.lower()
-            if "lied" in tl:
+            beschreibung = sn.get("description", "").lower()
+            if "lied" in tl or ("minecraft" not in tl and "lied" in beschreibung):
                 kategorie = "Kinderlied"
             elif sn.get("publishedAt", "")[:10] >= KINDERLIED_AB:
                 kategorie = "Minecraft-Tipp" if "minecraft" in tl else "Neu"
