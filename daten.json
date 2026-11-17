@@ -2,20 +2,6 @@
  "taeglich": [
   {
    "kanal": "music",
-   "datum": "2026-10-19",
-   "aufrufe": 10,
-   "stunden": 0.6,
-   "abos": 0
-  },
-  {
-   "kanal": "kids",
-   "datum": "2026-10-19",
-   "aufrufe": 7,
-   "stunden": 0.1,
-   "abos": -3
-  },
-  {
-   "kanal": "music",
    "datum": "2026-10-20",
    "aufrufe": 4,
    "stunden": 0.0,
@@ -391,6 +377,20 @@
    "aufrufe": 36,
    "stunden": 0.4,
    "abos": -3
+  },
+  {
+   "kanal": "music",
+   "datum": "2026-11-16",
+   "aufrufe": 27,
+   "stunden": 1.4,
+   "abos": 0
+  },
+  {
+   "kanal": "kids",
+   "datum": "2026-11-16",
+   "aufrufe": 21,
+   "stunden": 0.2,
+   "abos": -5
   }
  ],
  "videos": [
@@ -399,10 +399,10 @@
    "titel": "In the Hall of the Mountain King – Epic Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 408,
+   "aufrufe": 411,
    "stunden": 1.2,
    "abos": 1,
-   "wiedergabe_pct": 36.2,
+   "wiedergabe_pct": 36.4,
    "kategorie": "Violine"
   },
   {
@@ -410,10 +410,10 @@
    "titel": "Uplifting Violin Mix – Energetic Electronic Violin Music (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 225,
-   "stunden": 10.8,
+   "aufrufe": 227,
+   "stunden": 11.0,
    "abos": 1,
-   "wiedergabe_pct": 25.0,
+   "wiedergabe_pct": 25.3,
    "kategorie": "Violine"
   },
   {
@@ -421,10 +421,10 @@
    "titel": "Für Elise – Epic Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 179,
+   "aufrufe": 182,
    "stunden": 0.7,
    "abos": 3,
-   "wiedergabe_pct": 51.1,
+   "wiedergabe_pct": 51.3,
    "kategorie": "Violine"
   },
   {
@@ -432,10 +432,10 @@
    "titel": "Epic Violin Mix – Powerful Boom Bap Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 178,
+   "aufrufe": 179,
    "stunden": 0.7,
    "abos": 0,
-   "wiedergabe_pct": 45.7,
+   "wiedergabe_pct": 45.6,
    "kategorie": "Violine"
   },
   {
@@ -443,10 +443,10 @@
    "titel": "Für Elise Violin Remix – Legends Rising Part 1 & 2",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 169,
-   "stunden": 9.5,
+   "aufrufe": 172,
+   "stunden": 9.7,
    "abos": 1,
-   "wiedergabe_pct": 40.0,
+   "wiedergabe_pct": 39.9,
    "kategorie": "Violine"
   },
   {
@@ -454,10 +454,10 @@
    "titel": "Uplifting Violin Mix – Euphoric Dance Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 166,
+   "aufrufe": 167,
    "stunden": 0.6,
    "abos": 0,
-   "wiedergabe_pct": 49.7,
+   "wiedergabe_pct": 49.5,
    "kategorie": "Violine"
   },
   {
@@ -465,10 +465,10 @@
    "titel": "Epic Violin Mix – Powerful Cinematic Violin Music (13 Min)",
    "typ": "Video",
    "laenge": "13:33",
-   "aufrufe": 111,
-   "stunden": 6.5,
+   "aufrufe": 112,
+   "stunden": 6.7,
    "abos": 0,
-   "wiedergabe_pct": 27.5,
+   "wiedergabe_pct": 28.2,
    "kategorie": "Violine"
   },
   {
@@ -476,10 +476,10 @@
    "titel": "Für Elise Violin Remix – Legends Rising Part 3 & 4",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 95,
-   "stunden": 4.8,
+   "aufrufe": 99,
+   "stunden": 5.3,
    "abos": 0,
-   "wiedergabe_pct": 41.9,
+   "wiedergabe_pct": 43.8,
    "kategorie": "Violine"
   },
   {
@@ -487,10 +487,10 @@
    "titel": "Für Elise Violin Remix – Legends Rising Part 3 & 4 #shorts",
    "typ": "Short",
    "laenge": "0:47",
-   "aufrufe": 78,
+   "aufrufe": 83,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 31.3,
+   "wiedergabe_pct": 36.3,
    "kategorie": "Violine"
   },
   {
@@ -498,10 +498,10 @@
    "titel": "In the Hall of the Mountain King – Epic Violin Remix",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 73,
-   "stunden": 3.3,
+   "aufrufe": 77,
+   "stunden": 3.5,
    "abos": 0,
-   "wiedergabe_pct": 42.0,
+   "wiedergabe_pct": 41.7,
    "kategorie": "Violine"
   },
   {
@@ -509,10 +509,10 @@
    "titel": "Minecraft PS4 – Lederrüstung selber einfärben",
    "typ": "Video",
    "laenge": "2:19",
-   "aufrufe": 107,
-   "stunden": 1.5,
+   "aufrufe": 110,
+   "stunden": 1.6,
    "abos": 0,
-   "wiedergabe_pct": 47.1,
+   "wiedergabe_pct": 47.2,
    "kategorie": "Alte Videos"
   },
   {
@@ -520,10 +520,10 @@
    "titel": "Alles hat seinen Platz – Aufräumlied #Shorts",
    "typ": "Short",
    "laenge": "0:37",
-   "aufrufe": 70,
+   "aufrufe": 72,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 81.7,
+   "wiedergabe_pct": 79.9,
    "kategorie": "Kinderlied"
   },
   {
@@ -531,7 +531,7 @@
    "titel": "Alle Tiere haben ein Herz – Kinderlied zum Mitsingen",
    "typ": "Video",
    "laenge": "2:59",
-   "aufrufe": 66,
+   "aufrufe": 67,
    "stunden": 0.9,
    "abos": 0,
    "wiedergabe_pct": 28.4,
@@ -553,10 +553,10 @@
    "titel": "Minecraft PS4 – So baut man ein Enderportal",
    "typ": "Video",
    "laenge": "2:36",
-   "aufrufe": 58,
-   "stunden": 1.5,
+   "aufrufe": 56,
+   "stunden": 1.4,
    "abos": -1,
-   "wiedergabe_pct": 58.8,
+   "wiedergabe_pct": 58.5,
    "kategorie": "Alte Videos"
   },
   {
@@ -564,10 +564,10 @@
    "titel": "Polizei jagt Frederik mit TUT TUT BABY FLITZER",
    "typ": "Video",
    "laenge": "1:02",
-   "aufrufe": 40,
+   "aufrufe": 39,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 25.8,
+   "wiedergabe_pct": 26.4,
    "kategorie": "Alte Videos"
   },
   {
@@ -608,11 +608,22 @@
    "titel": "TUT TUT BABY Flitzer – Vorstellung von 16 Flitzern",
    "typ": "Video",
    "laenge": "3:20",
-   "aufrufe": 19,
+   "aufrufe": 20,
    "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 35.8,
+   "wiedergabe_pct": 36.0,
    "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Enderportal bauen – Minecraft-Tipp für Kinder #shorts",
+   "typ": "Short",
+   "laenge": "2:36",
+   "aufrufe": 17,
+   "stunden": 0.1,
+   "abos": 0,
+   "wiedergabe_pct": 18.7,
+   "kategorie": "Minecraft-Tipp"
   },
   {
    "kanal": "kids",
@@ -627,24 +638,13 @@
   },
   {
    "kanal": "kids",
-   "titel": "Enderportal bauen – Minecraft-Tipp für Kinder #shorts",
-   "typ": "Short",
-   "laenge": "2:36",
-   "aufrufe": 9,
-   "stunden": 0.0,
-   "abos": 0,
-   "wiedergabe_pct": 7.4,
-   "kategorie": "Minecraft-Tipp"
-  },
-  {
-   "kanal": "kids",
    "titel": "Schrubbi-Schrubb – Zähne putzen mit Spaß! – Kinderlied",
    "typ": "Video",
    "laenge": "3:01",
-   "aufrufe": 7,
+   "aufrufe": 9,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 47.3,
+   "wiedergabe_pct": 40.9,
    "kategorie": "Kinderlied"
   }
  ],
@@ -652,32 +652,32 @@
   {
    "kanal": "music",
    "quelle": "Shorts-Feed",
-   "aufrufe": 731
-  },
-  {
-   "kanal": "music",
-   "quelle": "Videovorschläge",
-   "aufrufe": 269
+   "aufrufe": 737
   },
   {
    "kanal": "music",
    "quelle": "Startseite & Abos",
-   "aufrufe": 264
+   "aufrufe": 271
+  },
+  {
+   "kanal": "music",
+   "quelle": "Videovorschläge",
+   "aufrufe": 271
   },
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 213
+   "aufrufe": 216
   },
   {
    "kanal": "music",
    "quelle": "Kanalseite",
-   "aufrufe": 97
+   "aufrufe": 102
   },
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 45
+   "aufrufe": 49
   },
   {
    "kanal": "music",
@@ -697,47 +697,47 @@
   {
    "kanal": "kids",
    "quelle": "Extern",
-   "aufrufe": 124
+   "aufrufe": 123
   },
   {
    "kanal": "kids",
    "quelle": "YouTube-Suche",
-   "aufrufe": 111
+   "aufrufe": 122
   },
   {
    "kanal": "kids",
    "quelle": "Kanalseite",
-   "aufrufe": 98
+   "aufrufe": 102
   },
   {
    "kanal": "kids",
    "quelle": "Shorts-Feed",
-   "aufrufe": 91
+   "aufrufe": 93
   },
   {
    "kanal": "kids",
    "quelle": "Startseite & Abos",
-   "aufrufe": 51
+   "aufrufe": 52
   },
   {
    "kanal": "kids",
    "quelle": "Videovorschläge",
-   "aufrufe": 42
+   "aufrufe": 41
   },
   {
    "kanal": "kids",
    "quelle": "Playlists",
-   "aufrufe": 39
-  },
-  {
-   "kanal": "kids",
-   "quelle": "Direkt/unbekannt",
-   "aufrufe": 32
+   "aufrufe": 38
   },
   {
    "kanal": "kids",
    "quelle": "Benachrichtigungen",
    "aufrufe": 32
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Direkt/unbekannt",
+   "aufrufe": 31
   },
   {
    "kanal": "kids",
@@ -750,30 +750,30 @@
    "kanal": "music",
    "abos_gesamt": 13,
    "abos_28t": 7,
-   "aufrufe_28t": 1668,
-   "stunden_28t": 37.9,
-   "aufrufe_gesamt": 1719,
-   "stunden_gesamt": 40.5,
-   "gesehen_pct_28t": 33.4
+   "aufrufe_28t": 1685,
+   "stunden_28t": 38.7,
+   "aufrufe_gesamt": 1746,
+   "stunden_gesamt": 41.9,
+   "gesehen_pct_28t": 33.9
   },
   {
    "kanal": "kids",
-   "abos_gesamt": 201664,
-   "abos_28t": -91,
-   "aufrufe_28t": 639,
-   "stunden_28t": 8.4,
-   "gesehen_pct_28t": 35.0
+   "abos_gesamt": 201662,
+   "abos_28t": -93,
+   "aufrufe_28t": 653,
+   "stunden_28t": 8.5,
+   "gesehen_pct_28t": 34.9
   }
  ],
- "stand": "16.11.2026",
+ "stand": "17.11.2026",
  "zeitraum": {
   "music": {
-   "von": "2026-10-19",
-   "bis": "2026-11-15"
+   "von": "2026-10-20",
+   "bis": "2026-11-16"
   },
   "kids": {
-   "von": "2026-10-19",
-   "bis": "2026-11-15"
+   "von": "2026-10-20",
+   "bis": "2026-11-16"
   }
  }
 }
