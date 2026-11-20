@@ -5,7 +5,8 @@ Läuft täglich über GitHub Actions (.github/workflows/daten.yml).
 Benötigte Geheimnisse (GitHub → Settings → Secrets → Actions):
   GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET,
   REFRESH_TOKEN_MUSIC (Konto mit Klangwerk Music),
-  REFRESH_TOKEN_KIDS  (Konto mit Klangwerk Kids)
+  REFRESH_TOKEN_KIDS  (Konto mit Klangwerk Kids),
+  REFRESH_TOKEN_SCHULE (Konto mit Kompass Schule)
 Fehlt ein Token oder schlägt ein Kanal fehl, bleiben dessen alte Zahlen stehen.
 Nur Python-Standardbibliothek, keine Zusatzpakete nötig.
 """
@@ -24,6 +25,7 @@ DATEI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "daten.js
 KANAELE = {
     "music": {"token_env": "REFRESH_TOKEN_MUSIC", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 15},
     "kids": {"token_env": "REFRESH_TOKEN_KIDS", "quellen_zeitraum": "28t", "videos_zeitraum": "28t", "max_videos": 15},
+    "schule": {"token_env": "REFRESH_TOKEN_SCHULE", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 25},
 }
 # Ab diesem Datum veröffentlichte Videos auf Klangwerk Kids zählen als „Kinderlied“
 KINDERLIED_AB = "2026-10-01"
@@ -182,9 +184,11 @@ def kanal_holen(kanal, cfg, heute):
                 kategorie = "Minecraft-Tipp" if "minecraft" in tl else "Neu"
             else:
                 kategorie = "Alte Videos"
+        elif kanal == "schule":
+            kategorie = titel.split("|")[-1].strip() if "|" in titel else "Lern-Short"
         else:
             kategorie = "Violine"
-        t = kurz_titel(titel)
+        t = kurz_titel(titel.split("|")[0] if kanal == "schule" else titel)
         if any(v["titel"] == t for v in videos):  # Titel müssen eindeutig sein
             t += " (Short)" if ist_short else " (Video)"
         videos.append({

@@ -8,8 +8,8 @@
 <meta name="robots" content="noindex">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎻</text></svg>">
 <style>
-:root{--bg:#0f1115;--panel:#181b22;--line:#2a2f3a;--fg:#eef0f4;--muted:#9aa3b2;--music:#e0b252;--kids:#5bb8f0;--ok:#46c47e;--bad:#ef6b6b;--grid:#252a34}
-@media (prefers-color-scheme: light){:root{--bg:#f6f7f9;--panel:#fff;--line:#e3e6eb;--fg:#15181e;--muted:#5d6675;--music:#b8861f;--kids:#1f87c7;--grid:#eceff3}}
+:root{--bg:#0f1115;--panel:#181b22;--line:#2a2f3a;--fg:#eef0f4;--muted:#9aa3b2;--music:#e0b252;--kids:#5bb8f0;--schule:#4fd18b;--ok:#46c47e;--bad:#ef6b6b;--grid:#252a34}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7f9;--panel:#fff;--line:#e3e6eb;--fg:#15181e;--muted:#5d6675;--music:#b8861f;--kids:#1f87c7;--schule:#1f9d5c;--grid:#eceff3}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -61,12 +61,13 @@ footer{color:var(--muted);font-size:12px;text-align:center}
 <div class="wrap">
   <header>
     <h1>Klangwerk – Kanal-Dashboard</h1>
-    <p class="lead">Stand: <span id="stand">—</span> · wird jeden Morgen automatisch aktualisiert</p>
+    <p class="lead">Stand: <span id="stand">—</span> · Daten aus YouTube Studio</p>
   </header>
 
   <nav class="tabs" role="tablist">
     <button class="tab" role="tab" data-tab="music" aria-selected="true">🎻 Klangwerk Music</button>
     <button class="tab" role="tab" data-tab="kids" aria-selected="false">🧸 Klangwerk Kids</button>
+    <button class="tab" role="tab" data-tab="schule" aria-selected="false">🧭 Kompass Schule</button>
   </nav>
 
   <section class="sec" id="music">
@@ -100,6 +101,23 @@ footer{color:var(--muted);font-size:12px;text-align:center}
     </div>
   </section>
 
+
+  <section class="sec" id="schule" hidden>
+    <p class="satz">Kompass Schule ist neu gestartet: bisher <b data-k="aufrufe_gesamt">—</b> Aufrufe für die ersten Lern-Shorts. Der beste Tag war der <b data-best="datum">—</b> mit <b data-best="aufrufe">—</b> Aufrufen.</p>
+    <div class="tiles">
+      <div class="card"><div class="lbl">Abonnenten gesamt</div><div class="num" data-k="abos_gesamt">—</div><div class="sub"><span data-k="abos_28t" data-signed="1">—</span> in 28 Tagen</div></div>
+      <div class="card"><div class="lbl">Aufrufe seit Start</div><div class="num" data-k="aufrufe_gesamt">—</div><div class="sub">alle Shorts zusammen</div></div>
+      <div class="card"><div class="lbl">Wiedergabezeit seit Start</div><div class="num"><span data-k="stunden_gesamt" data-dec="1">—</span> h</div><div class="sub">alle Shorts zusammen</div></div>
+      <div class="card"><div class="lbl">⌀ angeschaut</div><div class="num"><span data-k="gesehen_pct_28t" data-dec="1">—</span> %</div><div class="sub">über 100 % = mehrmals hintereinander geschaut</div></div>
+    </div>
+    <p class="note">Der Kanal ist ganz neu. YouTube braucht ein paar Tage, bis alle Zahlen in der Statistik auftauchen.</p>
+    <div class="card"><h2>Aufrufe pro Tag <span class="sub" data-zeitraum></span></h2><div class="chart" data-chart="tage"></div><p class="note">Tipp auf einen Balken, um die Werte zu sehen.</p></div>
+    <div class="two">
+      <div class="card"><h2>So finden die Zuschauer den Kanal</h2><div class="chart" data-chart="quellen"></div><p class="note">Aufrufe seit Kanalstart.</p></div>
+      <div class="card"><h2>Alle Shorts</h2><div class="tw"><table><thead><tr><th>Titel</th><th>Art</th><th class="n">Aufrufe</th><th class="n">Std.</th><th class="n">⌀ gesehen</th></tr></thead><tbody data-table></tbody></table></div><p class="note">Aufrufe laut Videoliste in YouTube Studio. „—“ = Wert liegt noch nicht vor.</p></div>
+    </div>
+  </section>
+
   <footer>Daten aus YouTube Studio · klangwerk.kompassapps.de</footer>
 </div>
 
@@ -108,7 +126,7 @@ const NS = 'http://www.w3.org/2000/svg';
 const fmt = (v, dec = 0) => (v == null || isNaN(v)) ? '—' : Number(v).toLocaleString('de-DE', {minimumFractionDigits: dec, maximumFractionDigits: dec});
 const tag = (s) => { const [, m, d] = String(s).split('-'); return d + '.' + m + '.'; };
 const el = (name, attrs = {}, parent) => { const e = document.createElementNS(NS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
-const farbe = (k) => getComputedStyle(document.documentElement).getPropertyValue(k === 'kids' ? '--kids' : '--music').trim();
+const farbe = (k) => getComputedStyle(document.documentElement).getPropertyValue('--' + k).trim();
 let DATA = null;
 
 function niceMax(v) { if (v <= 0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p; }
@@ -183,9 +201,9 @@ function tabelle(tb, kanal) {
     const tr = document.createElement('tr');
     const td = (t, c) => { const x = document.createElement('td'); x.textContent = t; if (c) x.className = c; tr.appendChild(x); return x; };
     td(r.titel);
-    const p = document.createElement('span'); p.className = 'pill'; p.textContent = kanal === 'kids' ? r.kategorie : r.typ; td('').appendChild(p);
+    const p = document.createElement('span'); p.className = 'pill'; p.textContent = kanal === 'music' ? r.typ : r.kategorie; td('').appendChild(p);
     const zahl = (t, l) => { const c = td('', 'n'); c.dataset.l = l; const b = document.createElement('b'); b.textContent = t; c.appendChild(b); };
-    zahl(fmt(r.aufrufe), 'Aufrufe'); zahl(fmt(r.stunden, 1), 'Std.'); zahl(fmt(r.wiedergabe_pct, 1) + ' %', '⌀ gesehen');
+    zahl(fmt(r.aufrufe), 'Aufrufe'); zahl(fmt(r.stunden, 1), 'Std.'); zahl(r.wiedergabe_pct == null ? '—' : fmt(r.wiedergabe_pct, 1) + ' %', '⌀ gesehen');
     tb.appendChild(tr);
   });
 }
@@ -225,14 +243,14 @@ function zeige(id) {
   if (DATA) zeichne();
 }
 document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => zeige(t.dataset.tab)));
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (h === 'kids' || h === 'music') zeige(h); });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (['music', 'kids', 'schule'].includes(h)) zeige(h); });
 let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => DATA && zeichne(), 150); });
 
 fetch('daten.json?v=' + Date.now()).then((r) => r.json()).then((d) => {
   DATA = d;
   document.getElementById('stand').textContent = d.stand || '—';
   const h = location.hash.slice(1);
-  zeige(h === 'kids' ? 'kids' : 'music');
+  zeige(['kids', 'schule'].includes(h) ? h : 'music');
 }).catch(() => { document.getElementById('stand').textContent = 'Daten konnten nicht geladen werden'; });
 </script>
 </body>

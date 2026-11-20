@@ -28,6 +28,7 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           REFRESH_TOKEN_MUSIC: ${{ secrets.REFRESH_TOKEN_MUSIC }}
           REFRESH_TOKEN_KIDS: ${{ secrets.REFRESH_TOKEN_KIDS }}
+          REFRESH_TOKEN_SCHULE: ${{ secrets.REFRESH_TOKEN_SCHULE }}
         run: python scripts/aktualisieren.py
 
       - name: Neue Zahlen speichern
