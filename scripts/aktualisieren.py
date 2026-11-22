@@ -58,13 +58,31 @@ def http(url, data=None, token=None):
         raise RuntimeError(f"HTTP {e.code} bei {url.split('?')[0]}: {e.read().decode()[:400]}") from None
 
 
+def sauber(wert):
+    # Leerzeichen, Zeilenumbrüche und Anführungszeichen vom Kopieren entfernen
+    return (wert or "").strip().strip('"').strip("'").strip()
+
+
 def zugangs_token(refresh_token):
-    antwort = http("https://oauth2.googleapis.com/token", data={
-        "client_id": os.environ["GOOGLE_CLIENT_ID"],
-        "client_secret": os.environ["GOOGLE_CLIENT_SECRET"],
-        "refresh_token": refresh_token,
-        "grant_type": "refresh_token",
-    })
+    rt = sauber(refresh_token)
+    if rt.startswith("ya29."):
+        raise RuntimeError("Das ist ein Access token (beginnt mit ya29.), kein Refresh token (beginnt mit 1//).")
+    try:
+        antwort = http("https://oauth2.googleapis.com/token", data={
+            "client_id": sauber(os.environ["GOOGLE_CLIENT_ID"]),
+            "client_secret": sauber(os.environ["GOOGLE_CLIENT_SECRET"]),
+            "refresh_token": rt,
+            "grant_type": "refresh_token",
+        })
+    except RuntimeError as ex:
+        if "invalid_grant" in str(ex):
+            raise RuntimeError("Google lehnt den Refresh token ab (invalid_grant). Meist wurde im OAuth Playground "
+                               "vor dem Klick auf 'Authorize APIs' der Haken 'Use your own OAuth credentials' nicht gesetzt, "
+                               "oder es wurde der Access token statt des Refresh tokens kopiert.") from None
+        if "invalid_client" in str(ex):
+            raise RuntimeError("Google lehnt Client-ID oder Clientschlüssel ab (invalid_client) – bitte die beiden "
+                               "Einträge GOOGLE_CLIENT_ID und GOOGLE_CLIENT_SECRET prüfen.") from None
+        raise
     return antwort["access_token"]
 
 
