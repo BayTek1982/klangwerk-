@@ -258,7 +258,10 @@ def main():
         erfolgreich.append(kanal)
         print(f"{kanal}: aktualisiert ({neu['ueberblick'][0]['aufrufe_28t']} Aufrufe in 28 Tagen)")
     if erfolgreich:
-        daten["stand"] = heute.strftime("%d.%m.%Y")
+        from zoneinfo import ZoneInfo
+        jetzt = dt.datetime.now(ZoneInfo("Europe/Berlin"))
+        daten["stand"] = jetzt.strftime("%d.%m.%Y")
+        daten["aktualisiert"] = jetzt.strftime("%d.%m.%Y um %H:%M Uhr")
         with open(DATEI, "w", encoding="utf-8") as f:
             json.dump(daten, f, ensure_ascii=False, indent=1)
     for f_ in fehler:

@@ -2,7 +2,8 @@ name: Daten aktualisieren
 
 on:
   schedule:
-    - cron: "17 4 * * *"   # täglich ca. 5:17 Uhr (Winterzeit) / 6:17 Uhr (Sommerzeit)
+    - cron: "17 4 * * *"   # morgens ca. 5:17 Uhr (Winterzeit) – GitHub startet oft mit Verspätung
+    - cron: "47 15 * * *"  # zweiter Abruf am Nachmittag ca. 16:47 Uhr, falls der Morgen ausfällt
   workflow_dispatch:        # zusätzlich per Knopf „Run workflow“ startbar
 
 permissions:

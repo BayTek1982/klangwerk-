@@ -61,7 +61,7 @@ footer{color:var(--muted);font-size:12px;text-align:center}
 <div class="wrap">
   <header>
     <h1>Klangwerk – Kanal-Dashboard</h1>
-    <p class="lead">Stand: <span id="stand">—</span> · wird jeden Morgen automatisch aktualisiert</p>
+    <p class="lead">Letzte Aktualisierung: <b id="stand">—</b> · wird automatisch 2× täglich aktualisiert</p>
   </header>
 
   <nav class="tabs" role="tablist">
@@ -248,7 +248,7 @@ let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTime
 
 fetch('daten.json?v=' + Date.now()).then((r) => r.json()).then((d) => {
   DATA = d;
-  document.getElementById('stand').textContent = d.stand || '—';
+  document.getElementById('stand').textContent = d.aktualisiert || d.stand || '—';
   const h = location.hash.slice(1);
   zeige(['kids', 'schule'].includes(h) ? h : 'music');
 }).catch(() => { document.getElementById('stand').textContent = 'Daten konnten nicht geladen werden'; });
