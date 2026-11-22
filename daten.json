@@ -2,13 +2,6 @@
  "taeglich": [
   {
    "kanal": "music",
-   "datum": "2026-10-23",
-   "aufrufe": 9,
-   "stunden": 1.1,
-   "abos": 0
-  },
-  {
-   "kanal": "music",
    "datum": "2026-10-24",
    "aufrufe": 31,
    "stunden": 1.6,
@@ -197,11 +190,11 @@
    "abos": 3
   },
   {
-   "kanal": "kids",
-   "datum": "2026-10-23",
-   "aufrufe": 11,
-   "stunden": 0.2,
-   "abos": -9
+   "kanal": "music",
+   "datum": "2026-11-20",
+   "aufrufe": 34,
+   "stunden": 1.0,
+   "abos": 0
   },
   {
    "kanal": "kids",
@@ -393,10 +386,10 @@
    "abos": -14
   },
   {
-   "kanal": "schule",
-   "datum": "2026-10-23",
-   "aufrufe": 0,
-   "stunden": 0.0,
+   "kanal": "kids",
+   "datum": "2026-11-20",
+   "aufrufe": 17,
+   "stunden": 0.2,
    "abos": 0
   },
   {
@@ -587,6 +580,13 @@
    "aufrufe": 79,
    "stunden": 0.8,
    "abos": 0
+  },
+  {
+   "kanal": "schule",
+   "datum": "2026-11-20",
+   "aufrufe": 514,
+   "stunden": 1.0,
+   "abos": 0
   }
  ],
  "videos": [
@@ -598,7 +598,7 @@
    "aufrufe": 414,
    "stunden": 1.2,
    "abos": 1,
-   "wiedergabe_pct": 36.3,
+   "wiedergabe_pct": 36.4,
    "kategorie": "Violine"
   },
   {
@@ -607,9 +607,20 @@
    "typ": "Video",
    "laenge": "12:22",
    "aufrufe": 244,
-   "stunden": 11.5,
+   "stunden": 11.6,
    "abos": 1,
-   "wiedergabe_pct": 25.6,
+   "wiedergabe_pct": 25.3,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
+   "typ": "Video",
+   "laenge": "9:56",
+   "aufrufe": 181,
+   "stunden": 10.2,
+   "abos": 1,
+   "wiedergabe_pct": 40.1,
    "kategorie": "Violine"
   },
   {
@@ -621,17 +632,6 @@
    "stunden": 0.7,
    "abos": 3,
    "wiedergabe_pct": 51.2,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
-   "typ": "Video",
-   "laenge": "9:56",
-   "aufrufe": 180,
-   "stunden": 10.2,
-   "abos": 1,
-   "wiedergabe_pct": 40.1,
    "kategorie": "Violine"
   },
   {
@@ -664,7 +664,7 @@
    "aufrufe": 131,
    "stunden": 1.3,
    "abos": 2,
-   "wiedergabe_pct": 146.8,
+   "wiedergabe_pct": 144.7,
    "kategorie": "Violine"
   },
   {
@@ -673,9 +673,9 @@
    "typ": "Video",
    "laenge": "13:33",
    "aufrufe": 127,
-   "stunden": 6.9,
+   "stunden": 7.4,
    "abos": 0,
-   "wiedergabe_pct": 28.5,
+   "wiedergabe_pct": 27.7,
    "kategorie": "Violine"
   },
   {
@@ -684,9 +684,9 @@
    "typ": "Video",
    "laenge": "9:55",
    "aufrufe": 125,
-   "stunden": 5.8,
+   "stunden": 6.2,
    "abos": 1,
-   "wiedergabe_pct": 48.4,
+   "wiedergabe_pct": 46.9,
    "kategorie": "Violine"
   },
   {
@@ -695,9 +695,9 @@
    "typ": "Video",
    "laenge": "9:56",
    "aufrufe": 116,
-   "stunden": 6.3,
+   "stunden": 6.4,
    "abos": 0,
-   "wiedergabe_pct": 45.6,
+   "wiedergabe_pct": 44.9,
    "kategorie": "Violine"
   },
   {
@@ -716,7 +716,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:51",
-   "aufrufe": 73,
+   "aufrufe": 80,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -727,7 +727,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 51,
+   "aufrufe": 60,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -738,10 +738,10 @@
    "titel": "Minecraft PS4 - Lederrüstung selber einfärben - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:19",
-   "aufrufe": 100,
+   "aufrufe": 103,
    "stunden": 1.4,
    "abos": 0,
-   "wiedergabe_pct": 45.3,
+   "wiedergabe_pct": 44.5,
    "kategorie": "Alte Videos"
   },
   {
@@ -749,10 +749,10 @@
    "titel": "Alles hat seinen Platz Aufräumlied für Kinder #Shorts",
    "typ": "Short",
    "laenge": "0:37",
-   "aufrufe": 73,
+   "aufrufe": 75,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 79.8,
+   "wiedergabe_pct": 78.6,
    "kategorie": "Kinderlied"
   },
   {
@@ -771,10 +771,10 @@
    "titel": "Minecraft PS4 - So baut man ein Enderportal - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:36",
-   "aufrufe": 55,
-   "stunden": 1.4,
+   "aufrufe": 54,
+   "stunden": 1.3,
    "abos": -1,
-   "wiedergabe_pct": 57.9,
+   "wiedergabe_pct": 55.9,
    "kategorie": "Alte Videos"
   },
   {
@@ -793,10 +793,10 @@
    "titel": "Polizei jagt Frederik mit TUT TUT BABY FLITZER!!!!",
    "typ": "Video",
    "laenge": "1:02",
-   "aufrufe": 44,
+   "aufrufe": 41,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 24.6,
+   "wiedergabe_pct": 25.2,
    "kategorie": "Alte Videos"
   },
   {
@@ -837,10 +837,10 @@
    "titel": "Enderportal bauen Minecraft-Tipp für Kinder #shorts",
    "typ": "Short",
    "laenge": "2:36",
-   "aufrufe": 23,
+   "aufrufe": 25,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 30.1,
+   "wiedergabe_pct": 26.0,
    "kategorie": "Minecraft-Tipp"
   },
   {
@@ -848,10 +848,10 @@
    "titel": "TUT TUT BABY Flitzer!!! Vorstellung von 16 TUT TUT BABY Flitzer! B. Brüder",
    "typ": "Video",
    "laenge": "3:20",
-   "aufrufe": 22,
-   "stunden": 0.5,
+   "aufrufe": 21,
+   "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 41.3,
+   "wiedergabe_pct": 38.5,
    "kategorie": "Alte Videos"
   },
   {
@@ -859,10 +859,10 @@
    "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß! | Kinderlied zum Mitsingen",
    "typ": "Video",
    "laenge": "3:01",
-   "aufrufe": 17,
+   "aufrufe": 18,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 37.1,
+   "wiedergabe_pct": 35.1,
    "kategorie": "Kinderlied"
   },
   {
@@ -892,10 +892,10 @@
    "titel": "Minecraft PS4- wie man Schafe färben kann - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:27",
-   "aufrufe": 10,
+   "aufrufe": 9,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 57.8,
+   "wiedergabe_pct": 60.6,
    "kategorie": "Alte Videos"
   },
   {
@@ -903,10 +903,10 @@
    "titel": "Liberty City = New York?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 308,
-   "stunden": null,
+   "aufrufe": 312,
+   "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 38.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -914,10 +914,10 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 214,
-   "stunden": null,
+   "aufrufe": 244,
+   "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 50.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -925,7 +925,7 @@
    "titel": "Warum GTA-Lieder verschwinden",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 112,
+   "aufrufe": 109,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -937,9 +937,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 83,
-   "stunden": 0.3,
+   "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 112.8,
+   "wiedergabe_pct": 110.6,
    "kategorie": "GTA-Schule"
   },
   {
@@ -958,10 +958,10 @@
    "titel": "GTA V: Die unglaublichen Rekordzahlen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 62,
-   "stunden": null,
+   "aufrufe": 70,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 43.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -970,9 +970,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 52,
-   "stunden": 0.5,
+   "stunden": 0.6,
    "abos": 0,
-   "wiedergabe_pct": 739.6,
+   "wiedergabe_pct": 370.1,
    "kategorie": "GTA-Schule"
   },
   {
@@ -980,7 +980,7 @@
    "titel": "So funktionieren GTA-Missionen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 35,
+   "aufrufe": 50,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -992,9 +992,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 12,
-   "stunden": null,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 34.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1002,10 +1002,10 @@
    "titel": "Los Santos: Die Karte von GTA V",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 7,
-   "stunden": null,
+   "aufrufe": 9,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 11.7,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1014,9 +1014,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 6,
-   "stunden": null,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 57.8,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1025,9 +1025,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 6,
-   "stunden": null,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 29.8,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1036,9 +1036,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 6,
-   "stunden": null,
+   "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 78.5,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1046,7 +1046,7 @@
    "titel": "RAGE-Engine einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 1,
+   "aufrufe": 5,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -1057,7 +1057,7 @@
    "titel": "Wer steckt hinter GTA?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 0,
+   "aufrufe": 2,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -1072,18 +1072,18 @@
   },
   {
    "kanal": "music",
-   "quelle": "Startseite & Abos",
-   "aufrufe": 289
+   "quelle": "Videovorschläge",
+   "aufrufe": 304
   },
   {
    "kanal": "music",
-   "quelle": "Videovorschläge",
-   "aufrufe": 289
+   "quelle": "Startseite & Abos",
+   "aufrufe": 295
   },
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 250
+   "aufrufe": 258
   },
   {
    "kanal": "music",
@@ -1093,7 +1093,7 @@
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 58
+   "aufrufe": 60
   },
   {
    "kanal": "music",
@@ -1103,7 +1103,7 @@
   {
    "kanal": "music",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 33
+   "aufrufe": 35
   },
   {
    "kanal": "music",
@@ -1118,22 +1118,22 @@
   {
    "kanal": "music",
    "quelle": "Sonstiges",
-   "aufrufe": 26
+   "aufrufe": 27
   },
   {
    "kanal": "kids",
    "quelle": "Extern",
-   "aufrufe": 121
+   "aufrufe": 128
   },
   {
    "kanal": "kids",
    "quelle": "YouTube-Suche",
-   "aufrufe": 119
+   "aufrufe": 116
   },
   {
    "kanal": "kids",
    "quelle": "Kanalseite",
-   "aufrufe": 105
+   "aufrufe": 106
   },
   {
    "kanal": "kids",
@@ -1143,27 +1143,27 @@
   {
    "kanal": "kids",
    "quelle": "Startseite & Abos",
-   "aufrufe": 52
+   "aufrufe": 55
   },
   {
    "kanal": "kids",
    "quelle": "Videovorschläge",
-   "aufrufe": 42
+   "aufrufe": 43
   },
   {
    "kanal": "kids",
    "quelle": "Playlists",
-   "aufrufe": 42
-  },
-  {
-   "kanal": "kids",
-   "quelle": "Direkt/unbekannt",
-   "aufrufe": 33
+   "aufrufe": 39
   },
   {
    "kanal": "kids",
    "quelle": "Benachrichtigungen",
-   "aufrufe": 33
+   "aufrufe": 34
+  },
+  {
+   "kanal": "kids",
+   "quelle": "Direkt/unbekannt",
+   "aufrufe": 31
   },
   {
    "kanal": "kids",
@@ -1173,32 +1173,37 @@
   {
    "kanal": "kids",
    "quelle": "Sonstiges",
-   "aufrufe": 13
+   "aufrufe": 14
   },
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 47
-  },
-  {
-   "kanal": "schule",
-   "quelle": "Kanalseite",
-   "aufrufe": 17
+   "aufrufe": 352
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 4
+   "aufrufe": 176
+  },
+  {
+   "kanal": "schule",
+   "quelle": "Kanalseite",
+   "aufrufe": 45
   },
   {
    "kanal": "schule",
    "quelle": "Extern",
-   "aufrufe": 4
+   "aufrufe": 6
+  },
+  {
+   "kanal": "schule",
+   "quelle": "Startseite & Abos",
+   "aufrufe": 3
   },
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 7
+   "aufrufe": 11
   }
  ],
  "ueberblick": [
@@ -1206,47 +1211,47 @@
    "kanal": "music",
    "abos_gesamt": 16,
    "abos_28t": 10,
-   "aufrufe_28t": 1852,
-   "stunden_28t": 44.7,
-   "aufrufe_gesamt": 1949,
-   "stunden_gesamt": 48.0,
-   "gesehen_pct_28t": 36.4
+   "aufrufe_28t": 1877,
+   "stunden_28t": 44.6,
+   "aufrufe_gesamt": 1955,
+   "stunden_gesamt": 49.0,
+   "gesehen_pct_28t": 35.5
   },
   {
    "kanal": "kids",
    "abos_gesamt": 201646,
-   "abos_28t": -97,
-   "aufrufe_28t": 660,
+   "abos_28t": -88,
+   "aufrufe_28t": 666,
    "stunden_28t": 8.3,
-   "aufrufe_gesamt": 81407188,
-   "stunden_gesamt": 13390941.7,
-   "gesehen_pct_28t": 33.6
+   "aufrufe_gesamt": 81407205,
+   "stunden_gesamt": 13390941.9,
+   "gesehen_pct_28t": 33.2
   },
   {
    "kanal": "schule",
    "abos_gesamt": 1,
    "abos_28t": 1,
-   "aufrufe_28t": 79,
-   "stunden_28t": 0.8,
-   "aufrufe_gesamt": 131,
-   "stunden_gesamt": 0.8,
-   "gesehen_pct_28t": 238.2
+   "aufrufe_28t": 593,
+   "stunden_28t": 1.9,
+   "aufrufe_gesamt": 593,
+   "stunden_gesamt": 1.9,
+   "gesehen_pct_28t": 74.4
   }
  ],
  "stand": "22.11.2026",
  "zeitraum": {
   "music": {
-   "von": "2026-10-23",
-   "bis": "2026-11-19"
+   "von": "2026-10-24",
+   "bis": "2026-11-20"
   },
   "kids": {
-   "von": "2026-10-23",
-   "bis": "2026-11-19"
+   "von": "2026-10-24",
+   "bis": "2026-11-20"
   },
   "schule": {
-   "von": "2026-10-23",
-   "bis": "2026-11-19"
+   "von": "2026-10-24",
+   "bis": "2026-11-20"
   }
  },
- "aktualisiert": "22.11.2026 um 13:36 Uhr"
+ "aktualisiert": "22.11.2026 um 22:16 Uhr"
 }
