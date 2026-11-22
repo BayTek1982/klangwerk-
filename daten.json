@@ -606,7 +606,7 @@
    "titel": "Uplifting Violin Mix Energetic Electronic Violin Music for Focus & Motivation (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 243,
+   "aufrufe": 244,
    "stunden": 11.5,
    "abos": 1,
    "wiedergabe_pct": 25.6,
@@ -625,6 +625,17 @@
   },
   {
    "kanal": "music",
+   "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
+   "typ": "Video",
+   "laenge": "9:56",
+   "aufrufe": 180,
+   "stunden": 10.2,
+   "abos": 1,
+   "wiedergabe_pct": 40.1,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
    "titel": "Epic Violin Mix – Powerful Boom Bap Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
@@ -632,17 +643,6 @@
    "stunden": 0.7,
    "abos": 0,
    "wiedergabe_pct": 45.6,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
-   "typ": "Video",
-   "laenge": "9:56",
-   "aufrufe": 179,
-   "stunden": 10.2,
-   "abos": 1,
-   "wiedergabe_pct": 40.1,
    "kategorie": "Violine"
   },
   {
@@ -683,7 +683,7 @@
    "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 122,
+   "aufrufe": 125,
    "stunden": 5.8,
    "abos": 1,
    "wiedergabe_pct": 48.4,
@@ -694,7 +694,7 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 3 & 4 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 115,
+   "aufrufe": 116,
    "stunden": 6.3,
    "abos": 0,
    "wiedergabe_pct": 45.6,
@@ -716,7 +716,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:51",
-   "aufrufe": 59,
+   "aufrufe": 73,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -727,7 +727,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 24,
+   "aufrufe": 51,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -903,7 +903,7 @@
    "titel": "Liberty City = New York?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 302,
+   "aufrufe": 308,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -914,7 +914,18 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 202,
+   "aufrufe": 214,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Warum GTA-Lieder verschwinden",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 112,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -925,7 +936,7 @@
    "titel": "GTA VI: Das musst du wissen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 82,
+   "aufrufe": 83,
    "stunden": 0.3,
    "abos": 0,
    "wiedergabe_pct": 112.8,
@@ -933,10 +944,21 @@
   },
   {
    "kanal": "schule",
+   "titel": "Warum GTA-Autos erfunden sind",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 74,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
    "titel": "GTA V: Die unglaublichen Rekordzahlen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 56,
+   "aufrufe": 62,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -947,10 +969,21 @@
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 49,
+   "aufrufe": 52,
    "stunden": 0.5,
    "abos": 0,
    "wiedergabe_pct": 739.6,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "So funktionieren GTA-Missionen",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 35,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
    "kategorie": "GTA-Schule"
   },
   {
@@ -967,6 +1000,28 @@
   {
    "kanal": "schule",
    "titel": "Los Santos: Die Karte von GTA V",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 7,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Open World einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 6,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Leonida: Die Karte von GTA VI",
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 6,
@@ -988,10 +1043,10 @@
   },
   {
    "kanal": "schule",
-   "titel": "Open World einfach erklärt",
+   "titel": "RAGE-Engine einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 5,
+   "aufrufe": 1,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -999,10 +1054,10 @@
   },
   {
    "kanal": "schule",
-   "titel": "Leonida: Die Karte von GTA VI",
+   "titel": "Wer steckt hinter GTA?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 5,
+   "aufrufe": 0,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -1038,7 +1093,7 @@
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 59
+   "aufrufe": 58
   },
   {
    "kanal": "music",
@@ -1048,7 +1103,7 @@
   {
    "kanal": "music",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 32
+   "aufrufe": 33
   },
   {
    "kanal": "music",
@@ -1153,7 +1208,7 @@
    "abos_28t": 10,
    "aufrufe_28t": 1852,
    "stunden_28t": 44.7,
-   "aufrufe_gesamt": 1930,
+   "aufrufe_gesamt": 1949,
    "stunden_gesamt": 48.0,
    "gesehen_pct_28t": 36.4
   },
@@ -1173,7 +1228,7 @@
    "abos_28t": 1,
    "aufrufe_28t": 79,
    "stunden_28t": 0.8,
-   "aufrufe_gesamt": 118,
+   "aufrufe_gesamt": 131,
    "stunden_gesamt": 0.8,
    "gesehen_pct_28t": 238.2
   }
@@ -1193,5 +1248,5 @@
    "bis": "2026-11-19"
   }
  },
- "aktualisiert": "22.11.2026 um 02:17 Uhr"
+ "aktualisiert": "22.11.2026 um 13:36 Uhr"
 }
