@@ -23,9 +23,9 @@ DATEI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "daten.js
 
 # kanal-id im Dashboard → Einstellungen
 KANAELE = {
-    "music": {"token_env": "REFRESH_TOKEN_MUSIC", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 15},
+    "music": {"token_env": "REFRESH_TOKEN_MUSIC", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 50, "videos_liste": True},
     "kids": {"token_env": "REFRESH_TOKEN_KIDS", "quellen_zeitraum": "28t", "videos_zeitraum": "28t", "max_videos": 15},
-    "schule": {"token_env": "REFRESH_TOKEN_SCHULE", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 25},
+    "schule": {"token_env": "REFRESH_TOKEN_SCHULE", "quellen_zeitraum": "gesamt", "videos_zeitraum": "gesamt", "max_videos": 50, "videos_liste": True},
 }
 # Ab diesem Datum veröffentlichte Videos auf Klangwerk Kids zählen als „Kinderlied“
 KINDERLIED_AB = "2026-10-01"
@@ -124,8 +124,11 @@ def kurz_titel(titel):
 
 def kanal_holen(kanal, cfg, heute):
     token = zugangs_token(os.environ[cfg["token_env"]])
-    # YouTube Analytics hat ca. 2 Tage Verzögerung
-    ende = heute - dt.timedelta(days=2)
+    # YouTube Analytics hat 2-3 Tage Verzögerung: Ende = letzter Tag, der schon Daten hat
+    probe = bericht(token, (heute - dt.timedelta(days=40)).isoformat(), (heute - dt.timedelta(days=1)).isoformat(),
+                    "views", "day", "day")
+    tage_mit_daten = [r["day"] for r in probe if r.get("views", 0) > 0]
+    ende = dt.date.fromisoformat(max(tage_mit_daten)) if tage_mit_daten else heute - dt.timedelta(days=3)
     start = ende - dt.timedelta(days=27)
     s28, e = start.isoformat(), ende.isoformat()
     s_ges = "2005-01-01"
@@ -149,10 +152,14 @@ def kanal_holen(kanal, cfg, heute):
 
     # Abonnenten gesamt: genaue Zahl aus Analytics, sonst gerundete Zahl aus der Data API
     abos_gesamt = int(zges.get("subscribersGained", 0) - zges.get("subscribersLost", 0))
-    kanal_info = http("https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&mine=true", token=token)
+    kanal_info = http("https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet,contentDetails&mine=true", token=token)
     items = kanal_info.get("items") or []
+    api_aufrufe, uploads = 0, None
     if items:
-        api_abos = int(items[0]["statistics"].get("subscriberCount", 0))
+        st = items[0].get("statistics", {})
+        api_abos = int(st.get("subscriberCount", 0))
+        api_aufrufe = int(st.get("viewCount", 0))
+        uploads = items[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
         if abos_gesamt <= 0 or abs(abos_gesamt - api_abos) > max(50, api_abos * 0.05):
             abos_gesamt = api_abos
 
@@ -162,7 +169,7 @@ def kanal_holen(kanal, cfg, heute):
         "abos_28t": int(z28.get("subscribersGained", 0) - z28.get("subscribersLost", 0)),
         "aufrufe_28t": int(z28.get("views", 0)),
         "stunden_28t": round(z28.get("estimatedMinutesWatched", 0) / 60, 1),
-        "aufrufe_gesamt": int(zges.get("views", 0)),
+        "aufrufe_gesamt": max(int(zges.get("views", 0)), api_aufrufe),
         "stunden_gesamt": round(zges.get("estimatedMinutesWatched", 0) / 60, 1),
         "gesehen_pct_28t": round(z28.get("averageViewPercentage", 0), 1),
     }
@@ -181,10 +188,15 @@ def kanal_holen(kanal, cfg, heute):
     v_start = s_ges if cfg["videos_zeitraum"] == "gesamt" else s28
     zeilen = bericht(token, v_start, e, "views,estimatedMinutesWatched,subscribersGained,subscribersLost,averageViewPercentage",
                      "video", "-views", cfg["max_videos"])
+    if cfg.get("videos_liste") and uploads:
+        pl = http("https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&playlistId=" + uploads, token=token)
+        liste_ids = [i["contentDetails"]["videoId"] for i in pl.get("items", [])]
+        bekannt = {z["video"]: z for z in zeilen}
+        zeilen = [bekannt.get(v, {"video": v}) for v in liste_ids]
     ids = [z["video"] for z in zeilen]
     infos = {}
     if ids:
-        antwort = http("https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails&id=" + ",".join(ids), token=token)
+        antwort = http("https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=" + ",".join(ids[:50]), token=token)
         infos = {v["id"]: v for v in antwort.get("items", [])}
     videos = []
     for z in zeilen:
@@ -211,12 +223,13 @@ def kanal_holen(kanal, cfg, heute):
             t += " (Short)" if ist_short else " (Video)"
         videos.append({
             "kanal": kanal, "titel": t, "typ": "Short" if ist_short else "Video", "laenge": laenge_text(sek),
-            "aufrufe": int(z.get("views", 0)),
-            "stunden": round(z.get("estimatedMinutesWatched", 0) / 60, 1),
+            "aufrufe": max(int(z.get("views", 0)), int(info.get("statistics", {}).get("viewCount", 0))) if cfg.get("videos_liste") else int(z.get("views", 0)),
+            "stunden": round(z["estimatedMinutesWatched"] / 60, 1) if "estimatedMinutesWatched" in z else None,
             "abos": int(z.get("subscribersGained", 0) - z.get("subscribersLost", 0)),
-            "wiedergabe_pct": round(z.get("averageViewPercentage", 0), 1),
+            "wiedergabe_pct": round(z["averageViewPercentage"], 1) if "averageViewPercentage" in z else None,
             "kategorie": kategorie,
         })
+    videos.sort(key=lambda v: -v["aufrufe"])
     return {"taeglich": taeglich, "ueberblick": [ueberblick], "quellen": quellen, "videos": videos,
             "zeitraum": {"von": s28, "bis": e}}
 
