@@ -2,13 +2,6 @@
  "taeglich": [
   {
    "kanal": "music",
-   "datum": "2026-10-24",
-   "aufrufe": 31,
-   "stunden": 1.6,
-   "abos": 0
-  },
-  {
-   "kanal": "music",
    "datum": "2026-10-25",
    "aufrufe": 55,
    "stunden": 3.6,
@@ -197,11 +190,11 @@
    "abos": 0
   },
   {
-   "kanal": "kids",
-   "datum": "2026-10-24",
-   "aufrufe": 33,
-   "stunden": 0.6,
-   "abos": -6
+   "kanal": "music",
+   "datum": "2026-11-21",
+   "aufrufe": 161,
+   "stunden": 3.8,
+   "abos": 0
   },
   {
    "kanal": "kids",
@@ -393,11 +386,11 @@
    "abos": 0
   },
   {
-   "kanal": "schule",
-   "datum": "2026-10-24",
-   "aufrufe": 0,
-   "stunden": 0.0,
-   "abos": 0
+   "kanal": "kids",
+   "datum": "2026-11-21",
+   "aufrufe": 19,
+   "stunden": 0.2,
+   "abos": -13
   },
   {
    "kanal": "schule",
@@ -587,6 +580,13 @@
    "aufrufe": 514,
    "stunden": 1.0,
    "abos": 0
+  },
+  {
+   "kanal": "schule",
+   "datum": "2026-11-21",
+   "aufrufe": 356,
+   "stunden": 0.9,
+   "abos": 0
   }
  ],
  "videos": [
@@ -598,7 +598,7 @@
    "aufrufe": 415,
    "stunden": 1.2,
    "abos": 1,
-   "wiedergabe_pct": 36.4,
+   "wiedergabe_pct": 37.2,
    "kategorie": "Violine"
   },
   {
@@ -606,10 +606,10 @@
    "titel": "Uplifting Violin Mix Energetic Electronic Violin Music for Focus & Motivation (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 244,
-   "stunden": 11.6,
+   "aufrufe": 248,
+   "stunden": 12.0,
    "abos": 1,
-   "wiedergabe_pct": 25.3,
+   "wiedergabe_pct": 25.7,
    "kategorie": "Violine"
   },
   {
@@ -617,10 +617,10 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 185,
+   "aufrufe": 188,
    "stunden": 10.2,
    "abos": 1,
-   "wiedergabe_pct": 40.1,
+   "wiedergabe_pct": 39.9,
    "kategorie": "Violine"
   },
   {
@@ -631,7 +631,7 @@
    "aufrufe": 180,
    "stunden": 0.7,
    "abos": 3,
-   "wiedergabe_pct": 51.2,
+   "wiedergabe_pct": 51.4,
    "kategorie": "Violine"
   },
   {
@@ -642,7 +642,7 @@
    "aufrufe": 179,
    "stunden": 0.7,
    "abos": 0,
-   "wiedergabe_pct": 45.6,
+   "wiedergabe_pct": 45.9,
    "kategorie": "Violine"
   },
   {
@@ -653,7 +653,7 @@
    "aufrufe": 172,
    "stunden": 0.6,
    "abos": 0,
-   "wiedergabe_pct": 49.3,
+   "wiedergabe_pct": 49.5,
    "kategorie": "Violine"
   },
   {
@@ -661,21 +661,10 @@
    "titel": "Csárdás – Fiery Gypsy Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 135,
-   "stunden": 1.3,
+   "aufrufe": 136,
+   "stunden": 1.4,
    "abos": 2,
-   "wiedergabe_pct": 144.7,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
-   "typ": "Video",
-   "laenge": "13:33",
-   "aufrufe": 129,
-   "stunden": 7.4,
-   "abos": 0,
-   "wiedergabe_pct": 27.7,
+   "wiedergabe_pct": 145.3,
    "kategorie": "Violine"
   },
   {
@@ -683,10 +672,21 @@
    "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 128,
-   "stunden": 6.2,
+   "aufrufe": 132,
+   "stunden": 6.8,
    "abos": 1,
-   "wiedergabe_pct": 46.9,
+   "wiedergabe_pct": 46.4,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
+   "typ": "Video",
+   "laenge": "13:33",
+   "aufrufe": 131,
+   "stunden": 7.6,
+   "abos": 0,
+   "wiedergabe_pct": 28.3,
    "kategorie": "Violine"
   },
   {
@@ -694,10 +694,21 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 3 & 4 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 117,
-   "stunden": 6.4,
+   "aufrufe": 120,
+   "stunden": 6.7,
    "abos": 0,
-   "wiedergabe_pct": 44.9,
+   "wiedergabe_pct": 45.0,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
+   "typ": "Short",
+   "laenge": "0:51",
+   "aufrufe": 89,
+   "stunden": 0.6,
+   "abos": 0,
+   "wiedergabe_pct": 154.1,
    "kategorie": "Violine"
   },
   {
@@ -713,24 +724,13 @@
   },
   {
    "kanal": "music",
-   "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
-   "typ": "Short",
-   "laenge": "0:51",
-   "aufrufe": 86,
-   "stunden": null,
-   "abos": 0,
-   "wiedergabe_pct": null,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 72,
-   "stunden": null,
+   "aufrufe": 76,
+   "stunden": 1.7,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 22.2,
    "kategorie": "Violine"
   },
   {
@@ -738,10 +738,10 @@
    "titel": "Minecraft PS4 - Lederrüstung selber einfärben - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:19",
-   "aufrufe": 103,
+   "aufrufe": 101,
    "stunden": 1.4,
    "abos": 0,
-   "wiedergabe_pct": 44.5,
+   "wiedergabe_pct": 44.4,
    "kategorie": "Alte Videos"
   },
   {
@@ -768,17 +768,6 @@
   },
   {
    "kanal": "kids",
-   "titel": "Minecraft PS4 - So baut man ein Enderportal - Tipps und Tricks",
-   "typ": "Video",
-   "laenge": "2:36",
-   "aufrufe": 54,
-   "stunden": 1.3,
-   "abos": -1,
-   "wiedergabe_pct": 55.9,
-   "kategorie": "Alte Videos"
-  },
-  {
-   "kanal": "kids",
    "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß!",
    "typ": "Short",
    "laenge": "0:36",
@@ -790,13 +779,24 @@
   },
   {
    "kanal": "kids",
+   "titel": "Minecraft PS4 - So baut man ein Enderportal - Tipps und Tricks",
+   "typ": "Video",
+   "laenge": "2:36",
+   "aufrufe": 51,
+   "stunden": 1.3,
+   "abos": -1,
+   "wiedergabe_pct": 57.9,
+   "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
    "titel": "Polizei jagt Frederik mit TUT TUT BABY FLITZER!!!!",
    "typ": "Video",
    "laenge": "1:02",
    "aufrufe": 41,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 25.2,
+   "wiedergabe_pct": 25,
    "kategorie": "Alte Videos"
   },
   {
@@ -815,10 +815,10 @@
    "titel": "Vier Jahreszeiten Kinderlied zum Mitsingen #shorts",
    "typ": "Short",
    "laenge": "0:36",
-   "aufrufe": 36,
+   "aufrufe": 37,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 130.1,
+   "wiedergabe_pct": 123.4,
    "kategorie": "Kinderlied"
   },
   {
@@ -848,10 +848,10 @@
    "titel": "TUT TUT BABY Flitzer!!! Vorstellung von 16 TUT TUT BABY Flitzer! B. Brüder",
    "typ": "Video",
    "laenge": "3:20",
-   "aufrufe": 21,
+   "aufrufe": 20,
    "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 38.5,
+   "wiedergabe_pct": 40.3,
    "kategorie": "Alte Videos"
   },
   {
@@ -859,10 +859,10 @@
    "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß! | Kinderlied zum Mitsingen",
    "typ": "Video",
    "laenge": "3:01",
-   "aufrufe": 18,
+   "aufrufe": 20,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 35.1,
+   "wiedergabe_pct": 33.3,
    "kategorie": "Kinderlied"
   },
   {
@@ -892,11 +892,22 @@
    "titel": "Minecraft PS4- wie man Schafe färben kann - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:27",
-   "aufrufe": 9,
+   "aufrufe": 8,
    "stunden": 0.2,
    "abos": 0,
    "wiedergabe_pct": 60.6,
    "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Unterstützung & Widerstand einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 421,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
@@ -906,7 +917,7 @@
    "aufrufe": 314,
    "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 38.4,
+   "wiedergabe_pct": 38.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -914,21 +925,43 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 251,
-   "stunden": 0.4,
+   "aufrufe": 259,
+   "stunden": 0.7,
    "abos": 0,
-   "wiedergabe_pct": 50.2,
+   "wiedergabe_pct": 50.4,
    "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:23",
+   "aufrufe": 192,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 186,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
    "titel": "Warum GTA-Lieder verschwinden",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 109,
-   "stunden": null,
+   "aufrufe": 111,
+   "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 46.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -936,10 +969,10 @@
    "titel": "GTA VI: Das musst du wissen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 80,
+   "aufrufe": 81,
    "stunden": 0.4,
    "abos": 0,
-   "wiedergabe_pct": 110.6,
+   "wiedergabe_pct": 107.1,
    "kategorie": "GTA-Schule"
   },
   {
@@ -947,10 +980,21 @@
    "titel": "Warum GTA-Autos erfunden sind",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 75,
-   "stunden": null,
+   "aufrufe": 79,
+   "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 56.3,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "So funktionieren GTA-Missionen",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 71,
+   "stunden": 0.0,
+   "abos": 0,
+   "wiedergabe_pct": 24.3,
    "kategorie": "GTA-Schule"
   },
   {
@@ -959,20 +1003,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 70,
-   "stunden": 0.0,
+   "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 43.2,
-   "kategorie": "GTA-Schule"
-  },
-  {
-   "kanal": "schule",
-   "titel": "So funktionieren GTA-Missionen",
-   "typ": "Short",
-   "laenge": "0:41",
-   "aufrufe": 55,
-   "stunden": null,
-   "abos": 0,
-   "wiedergabe_pct": null,
+   "wiedergabe_pct": 45.9,
    "kategorie": "GTA-Schule"
   },
   {
@@ -980,10 +1013,10 @@
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 52,
+   "aufrufe": 54,
    "stunden": 0.6,
    "abos": 0,
-   "wiedergabe_pct": 370.1,
+   "wiedergabe_pct": 311.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -994,7 +1027,7 @@
    "aufrufe": 12,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 34.4,
+   "wiedergabe_pct": 39.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1002,10 +1035,21 @@
    "titel": "Los Santos: Die Karte von GTA V",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 9,
+   "aufrufe": 10,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 11.7,
+   "wiedergabe_pct": 9.8,
+   "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "RAGE-Engine einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 8,
+   "stunden": 0.0,
+   "abos": 0,
+   "wiedergabe_pct": 73.3,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1016,7 +1060,7 @@
    "aufrufe": 7,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 29.8,
+   "wiedergabe_pct": 24.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1032,14 +1076,14 @@
   },
   {
    "kanal": "schule",
-   "titel": "RAGE-Engine einfach erklärt",
+   "titel": "Trendlinie einzeichnen einfach erklärt",
    "typ": "Short",
-   "laenge": "0:41",
+   "laenge": "0:21",
    "aufrufe": 6,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
-   "kategorie": "GTA-Schule"
+   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
@@ -1049,8 +1093,30 @@
    "aufrufe": 6,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 57.8,
+   "wiedergabe_pct": 59.4,
    "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Trendkanal einzeichnen einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:23",
+   "aufrufe": 5,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Ausbruch & Retest einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:23",
+   "aufrufe": 2,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
@@ -1062,38 +1128,82 @@
    "abos": 0,
    "wiedergabe_pct": null,
    "kategorie": "GTA-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Fehlausbruch: So erkennst du die Bullenfalle",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 1,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Stop-Hunt & Liquidität einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 1,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 1,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Abwärtstrend erkennen: tiefere Hochs & Tiefs",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 1,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
   }
  ],
  "quellen": [
   {
    "kanal": "music",
    "quelle": "Shorts-Feed",
-   "aufrufe": 803
+   "aufrufe": 846
   },
   {
    "kanal": "music",
    "quelle": "Videovorschläge",
-   "aufrufe": 304
+   "aufrufe": 354
   },
   {
    "kanal": "music",
    "quelle": "Startseite & Abos",
-   "aufrufe": 295
+   "aufrufe": 305
   },
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 259
+   "aufrufe": 277
   },
   {
    "kanal": "music",
    "quelle": "Kanalseite",
-   "aufrufe": 120
+   "aufrufe": 149
   },
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 60
+   "aufrufe": 63
   },
   {
    "kanal": "music",
@@ -1103,7 +1213,7 @@
   {
    "kanal": "music",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 35
+   "aufrufe": 37
   },
   {
    "kanal": "music",
@@ -1118,22 +1228,22 @@
   {
    "kanal": "music",
    "quelle": "Sonstiges",
-   "aufrufe": 27
+   "aufrufe": 33
   },
   {
    "kanal": "kids",
    "quelle": "Extern",
-   "aufrufe": 128
+   "aufrufe": 125
   },
   {
    "kanal": "kids",
    "quelle": "YouTube-Suche",
-   "aufrufe": 116
+   "aufrufe": 105
   },
   {
    "kanal": "kids",
    "quelle": "Kanalseite",
-   "aufrufe": 106
+   "aufrufe": 103
   },
   {
    "kanal": "kids",
@@ -1143,27 +1253,27 @@
   {
    "kanal": "kids",
    "quelle": "Startseite & Abos",
-   "aufrufe": 55
+   "aufrufe": 57
   },
   {
    "kanal": "kids",
    "quelle": "Videovorschläge",
-   "aufrufe": 43
+   "aufrufe": 41
   },
   {
    "kanal": "kids",
    "quelle": "Playlists",
-   "aufrufe": 39
+   "aufrufe": 40
   },
   {
    "kanal": "kids",
    "quelle": "Benachrichtigungen",
-   "aufrufe": 34
+   "aufrufe": 37
   },
   {
    "kanal": "kids",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 31
+   "aufrufe": 32
   },
   {
    "kanal": "kids",
@@ -1173,27 +1283,27 @@
   {
    "kanal": "kids",
    "quelle": "Sonstiges",
-   "aufrufe": 14
+   "aufrufe": 12
   },
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 352
+   "aufrufe": 565
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 176
+   "aufrufe": 301
   },
   {
    "kanal": "schule",
    "quelle": "Kanalseite",
-   "aufrufe": 45
+   "aufrufe": 47
   },
   {
    "kanal": "schule",
    "quelle": "Extern",
-   "aufrufe": 6
+   "aufrufe": 8
   },
   {
    "kanal": "schule",
@@ -1203,7 +1313,7 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 11
+   "aufrufe": 25
   }
  ],
  "ueberblick": [
@@ -1211,47 +1321,47 @@
    "kanal": "music",
    "abos_gesamt": 16,
    "abos_28t": 10,
-   "aufrufe_28t": 1877,
-   "stunden_28t": 44.6,
-   "aufrufe_gesamt": 1960,
-   "stunden_gesamt": 49.0,
-   "gesehen_pct_28t": 35.5
+   "aufrufe_28t": 2007,
+   "stunden_28t": 46.8,
+   "aufrufe_gesamt": 2122,
+   "stunden_gesamt": 52.8,
+   "gesehen_pct_28t": 35.7
   },
   {
    "kanal": "kids",
-   "abos_gesamt": 201646,
-   "abos_28t": -88,
-   "aufrufe_28t": 666,
-   "stunden_28t": 8.3,
-   "aufrufe_gesamt": 81407205,
-   "stunden_gesamt": 13390941.9,
+   "abos_gesamt": 201633,
+   "abos_28t": -95,
+   "aufrufe_28t": 652,
+   "stunden_28t": 7.9,
+   "aufrufe_gesamt": 81407224,
+   "stunden_gesamt": 13390942.1,
    "gesehen_pct_28t": 33.2
   },
   {
    "kanal": "schule",
    "abos_gesamt": 1,
    "abos_28t": 1,
-   "aufrufe_28t": 593,
-   "stunden_28t": 1.9,
-   "aufrufe_gesamt": 804,
-   "stunden_gesamt": 1.9,
-   "gesehen_pct_28t": 74.4
+   "aufrufe_28t": 949,
+   "stunden_28t": 2.7,
+   "aufrufe_gesamt": 949,
+   "stunden_gesamt": 2.7,
+   "gesehen_pct_28t": 63.2
   }
  ],
- "stand": "23.11.2026",
+ "stand": "24.11.2026",
  "zeitraum": {
   "music": {
-   "von": "2026-10-24",
-   "bis": "2026-11-20"
+   "von": "2026-10-25",
+   "bis": "2026-11-21"
   },
   "kids": {
-   "von": "2026-10-24",
-   "bis": "2026-11-20"
+   "von": "2026-10-25",
+   "bis": "2026-11-21"
   },
   "schule": {
-   "von": "2026-10-24",
-   "bis": "2026-11-20"
+   "von": "2026-10-25",
+   "bis": "2026-11-21"
   }
  },
- "aktualisiert": "23.11.2026 um 15:39 Uhr"
+ "aktualisiert": "24.11.2026 um 03:36 Uhr"
 }
