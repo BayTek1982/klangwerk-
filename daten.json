@@ -595,7 +595,7 @@
    "titel": "In the Hall of the Mountain King – Epic Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 415,
+   "aufrufe": 416,
    "stunden": 1.2,
    "abos": 1,
    "wiedergabe_pct": 37.2,
@@ -606,7 +606,7 @@
    "titel": "Uplifting Violin Mix Energetic Electronic Violin Music for Focus & Motivation (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 248,
+   "aufrufe": 249,
    "stunden": 12.0,
    "abos": 1,
    "wiedergabe_pct": 25.7,
@@ -617,7 +617,7 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 188,
+   "aufrufe": 190,
    "stunden": 10.2,
    "abos": 1,
    "wiedergabe_pct": 39.6,
@@ -658,6 +658,17 @@
   },
   {
    "kanal": "music",
+   "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
+   "typ": "Video",
+   "laenge": "9:55",
+   "aufrufe": 140,
+   "stunden": 6.8,
+   "abos": 1,
+   "wiedergabe_pct": 44.9,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
    "titel": "Csárdás – Fiery Gypsy Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
@@ -665,17 +676,6 @@
    "stunden": 1.4,
    "abos": 2,
    "wiedergabe_pct": 145.3,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
-   "typ": "Video",
-   "laenge": "9:55",
-   "aufrufe": 136,
-   "stunden": 6.8,
-   "abos": 1,
-   "wiedergabe_pct": 44.9,
    "kategorie": "Violine"
   },
   {
@@ -727,7 +727,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 79,
+   "aufrufe": 80,
    "stunden": 2.1,
    "abos": 0,
    "wiedergabe_pct": 21.2,
@@ -845,17 +845,6 @@
   },
   {
    "kanal": "kids",
-   "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß! | Kinderlied zum Mitsingen",
-   "typ": "Video",
-   "laenge": "3:01",
-   "aufrufe": 20,
-   "stunden": 0.3,
-   "abos": 0,
-   "wiedergabe_pct": 33.3,
-   "kategorie": "Kinderlied"
-  },
-  {
-   "kanal": "kids",
    "titel": "TUT TUT BABY Flitzer!!! Vorstellung von 16 TUT TUT BABY Flitzer! B. Brüder",
    "typ": "Video",
    "laenge": "3:20",
@@ -864,6 +853,17 @@
    "abos": 0,
    "wiedergabe_pct": 40.3,
    "kategorie": "Alte Videos"
+  },
+  {
+   "kanal": "kids",
+   "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß! | Kinderlied zum Mitsingen",
+   "typ": "Video",
+   "laenge": "3:01",
+   "aufrufe": 20,
+   "stunden": 0.3,
+   "abos": 0,
+   "wiedergabe_pct": 33.3,
+   "kategorie": "Kinderlied"
   },
   {
    "kanal": "kids",
@@ -903,7 +903,7 @@
    "titel": "Unterstützung & Widerstand einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 665,
+   "aufrufe": 704,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -925,7 +925,18 @@
    "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 293,
+   "aufrufe": 306,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 269,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -936,7 +947,7 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 267,
+   "aufrufe": 269,
    "stunden": 0.8,
    "abos": 0,
    "wiedergabe_pct": 52.4,
@@ -944,21 +955,10 @@
   },
   {
    "kanal": "schule",
-   "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
-   "typ": "Short",
-   "laenge": "0:21",
-   "aufrufe": 250,
-   "stunden": null,
-   "abos": 0,
-   "wiedergabe_pct": null,
-   "kategorie": "Chart-Schule"
-  },
-  {
-   "kanal": "schule",
    "titel": "Ausbruch & Retest einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 128,
+   "aufrufe": 154,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -969,7 +969,7 @@
    "titel": "Warum GTA-Lieder verschwinden",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 113,
+   "aufrufe": 115,
    "stunden": 0.3,
    "abos": 0,
    "wiedergabe_pct": 47.2,
@@ -1002,7 +1002,7 @@
    "titel": "So funktionieren GTA-Missionen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 75,
+   "aufrufe": 76,
    "stunden": 0.1,
    "abos": 0,
    "wiedergabe_pct": 26.6,
@@ -1013,7 +1013,7 @@
    "titel": "GTA V: Die unglaublichen Rekordzahlen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 73,
+   "aufrufe": 74,
    "stunden": 0.1,
    "abos": 0,
    "wiedergabe_pct": 52.8,
@@ -1024,7 +1024,7 @@
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 56,
+   "aufrufe": 57,
    "stunden": 0.6,
    "abos": 0,
    "wiedergabe_pct": 280.5,
@@ -1035,7 +1035,7 @@
    "titel": "Trendlinie einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 25,
+   "aufrufe": 36,
    "stunden": null,
    "abos": 0,
    "wiedergabe_pct": null,
@@ -1079,7 +1079,7 @@
    "titel": "RAGE-Engine einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 11,
+   "aufrufe": 13,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 42.2,
@@ -1193,7 +1193,7 @@
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 293
+   "aufrufe": 291
   },
   {
    "kanal": "music",
@@ -1262,18 +1262,18 @@
   },
   {
    "kanal": "kids",
+   "quelle": "Playlists",
+   "aufrufe": 39
+  },
+  {
+   "kanal": "kids",
    "quelle": "Benachrichtigungen",
    "aufrufe": 39
   },
   {
    "kanal": "kids",
-   "quelle": "Playlists",
-   "aufrufe": 38
-  },
-  {
-   "kanal": "kids",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 32
+   "aufrufe": 31
   },
   {
    "kanal": "kids",
@@ -1288,17 +1288,17 @@
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 571
+   "aufrufe": 566
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 396
+   "aufrufe": 398
   },
   {
    "kanal": "schule",
    "quelle": "Kanalseite",
-   "aufrufe": 49
+   "aufrufe": 52
   },
   {
    "kanal": "schule",
@@ -1318,7 +1318,7 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 25
+   "aufrufe": 22
   }
  ],
  "ueberblick": [
@@ -1328,7 +1328,7 @@
    "abos_28t": 10,
    "aufrufe_28t": 1989,
    "stunden_28t": 44.0,
-   "aufrufe_gesamt": 2154,
+   "aufrufe_gesamt": 2165,
    "stunden_gesamt": 53.7,
    "gesehen_pct_28t": 35.7
   },
@@ -1348,7 +1348,7 @@
    "abos_28t": 1,
    "aufrufe_28t": 1055,
    "stunden_28t": 3.1,
-   "aufrufe_gesamt": 2227,
+   "aufrufe_gesamt": 2540,
    "stunden_gesamt": 3.1,
    "gesehen_pct_28t": 61.8
   }
@@ -1368,5 +1368,5 @@
    "bis": "2026-11-22"
   }
  },
- "aktualisiert": "25.11.2026 um 01:07 Uhr"
+ "aktualisiert": "25.11.2026 um 15:23 Uhr"
 }
