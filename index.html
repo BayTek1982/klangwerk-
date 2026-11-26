@@ -40,6 +40,11 @@ th{color:var(--muted);font-weight:600;font-size:12px}
 .n{text-align:right;white-space:nowrap}
 .pill{display:inline-block;font-size:12px;padding:0 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
 .note{color:var(--muted);font-size:13px;margin:8px 0 0}
+.jetzt{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;background:rgba(61,214,198,.08);border:1px solid rgba(61,214,198,.35);border-radius:12px;padding:10px 14px;margin:12px 0 0}
+.jetzt .t{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#3dd6c6;font-weight:700}
+.jetzt b{font-size:20px;font-variant-numeric:tabular-nums}
+.jetzt span{color:var(--muted);font-size:13px}
+.verzug{color:var(--muted);font-size:13px;margin:6px 0 0}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media (max-width:900px){.two{grid-template-columns:1fr}}
 /* Handy: Videoliste als Karten statt Tabelle */
@@ -61,7 +66,7 @@ footer{color:var(--muted);font-size:12px;text-align:center}
 <div class="wrap">
   <header>
     <h1>Klangwerk – Kanal-Dashboard</h1>
-    <p class="lead">Letzte Aktualisierung: <b id="stand">—</b> · wird automatisch 2× täglich aktualisiert</p>
+    <p class="lead">Letzte Aktualisierung: <b id="stand">—</b> · wird automatisch alle 3 Stunden aktualisiert</p>
   </header>
 
   <nav class="tabs" role="tablist">
@@ -216,6 +221,23 @@ function zahlen(sec, kanal) {
     e.textContent = t;
   });
   sec.querySelectorAll('[data-zeitraum]').forEach((e) => { const z = (DATA.zeitraum || {})[kanal]; const r = DATA.taeglich.filter((x) => x.kanal === kanal); const von = z ? z.von : (r[0] || {}).datum, bis = z ? z.bis : (r[r.length - 1] || {}).datum; e.textContent = von ? '· ' + tag(von) + '–' + tag(bis) : ''; });
+  // Kasten „Stand jetzt“ (fast ohne Verzögerung) und Hinweis auf die 2–3 Tage Verzug der Tagesstatistik
+  let j = sec.querySelector('.jetzt');
+  if (!j) { j = document.createElement('div'); j.className = 'jetzt'; sec.querySelector('.satz').after(j); }
+  if (u.aufrufe_jetzt != null) {
+    j.hidden = false;
+    j.innerHTML = '<div class="t">Stand jetzt</div>'
+      + '<div><b>' + fmt(u.aufrufe_jetzt) + '</b> <span>Aufrufe insgesamt</span></div>'
+      + '<div><b>' + fmt(u.abos_jetzt) + '</b> <span>Abonnenten</span></div>'
+      + (u.videos_jetzt ? '<div><b>' + fmt(u.videos_jetzt) + '</b> <span>Videos &amp; Shorts</span></div>' : '')
+      + '<span style="flex-basis:100%">abgerufen am ' + (u.jetzt_um || '—') + ' · diese Zahlen kommen fast ohne Verzögerung</span>';
+  } else j.hidden = true;
+  const z2 = (DATA.zeitraum || {})[kanal];
+  sec.querySelectorAll('[data-chart="tage"]').forEach((c) => {
+    let v = c.parentElement.querySelector('.verzug');
+    if (!v) { v = document.createElement('p'); v.className = 'verzug'; c.after(v); }
+    v.textContent = z2 ? 'Die Tagesstatistik reicht bis ' + tag(z2.bis) + ' – YouTube liefert die genauen Tageszahlen erst 2–3 Tage später. Die 28 Tage sind ' + tag(z2.von) + '–' + tag(z2.bis) : '';
+  });
   const rows = DATA.taeglich.filter((r) => r.kanal === kanal);
   const best = rows.reduce((a, b) => (b.aufrufe > a.aufrufe ? b : a), rows[0]);
   sec.querySelectorAll('[data-best]').forEach((e) => { e.textContent = e.dataset.best === 'datum' ? tag(best.datum) : fmt(best.aufrufe); });

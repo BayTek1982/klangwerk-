@@ -154,11 +154,12 @@ def kanal_holen(kanal, cfg, heute):
     abos_gesamt = int(zges.get("subscribersGained", 0) - zges.get("subscribersLost", 0))
     kanal_info = http("https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet,contentDetails&mine=true", token=token)
     items = kanal_info.get("items") or []
-    api_aufrufe, uploads = 0, None
+    api_aufrufe, api_abos, api_videos, uploads = 0, 0, 0, None
     if items:
         st = items[0].get("statistics", {})
         api_abos = int(st.get("subscriberCount", 0))
         api_aufrufe = int(st.get("viewCount", 0))
+        api_videos = int(st.get("videoCount", 0))
         uploads = items[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
         if abos_gesamt <= 0 or abs(abos_gesamt - api_abos) > max(50, api_abos * 0.05):
             abos_gesamt = api_abos
@@ -230,6 +231,14 @@ def kanal_holen(kanal, cfg, heute):
             "kategorie": kategorie,
         })
     videos.sort(key=lambda v: -v["aufrufe"])
+
+    # Zahlen „jetzt“: kommen fast ohne Verzögerung aus der Data API (nicht aus der Statistik mit 2–3 Tagen Verzug)
+    summe_videos = sum(int(i.get("statistics", {}).get("viewCount", 0)) for i in infos.values())
+    from zoneinfo import ZoneInfo
+    ueberblick["aufrufe_jetzt"] = max(api_aufrufe, summe_videos if cfg.get("videos_liste") else 0, ueberblick["aufrufe_gesamt"])
+    ueberblick["abos_jetzt"] = api_abos if api_abos else ueberblick["abos_gesamt"]
+    ueberblick["videos_jetzt"] = api_videos
+    ueberblick["jetzt_um"] = dt.datetime.now(ZoneInfo("Europe/Berlin")).strftime("%d.%m. um %H:%M Uhr")
     return {"taeglich": taeglich, "ueberblick": [ueberblick], "quellen": quellen, "videos": videos,
             "zeitraum": {"von": s28, "bis": e}}
 
