@@ -2,13 +2,6 @@
  "taeglich": [
   {
    "kanal": "music",
-   "datum": "2026-10-28",
-   "aufrufe": 39,
-   "stunden": 2.1,
-   "abos": 0
-  },
-  {
-   "kanal": "music",
    "datum": "2026-10-29",
    "aufrufe": 35,
    "stunden": 1.7,
@@ -197,11 +190,11 @@
    "abos": 0
   },
   {
-   "kanal": "kids",
-   "datum": "2026-10-28",
-   "aufrufe": 10,
-   "stunden": 0.1,
-   "abos": -2
+   "kanal": "music",
+   "datum": "2026-11-25",
+   "aufrufe": 24,
+   "stunden": 0.7,
+   "abos": 1
   },
   {
    "kanal": "kids",
@@ -393,11 +386,11 @@
    "abos": -5
   },
   {
-   "kanal": "schule",
-   "datum": "2026-10-28",
-   "aufrufe": 0,
-   "stunden": 0.0,
-   "abos": 0
+   "kanal": "kids",
+   "datum": "2026-11-25",
+   "aufrufe": 11,
+   "stunden": 0.1,
+   "abos": -5
   },
   {
    "kanal": "schule",
@@ -577,7 +570,7 @@
   {
    "kanal": "schule",
    "datum": "2026-11-23",
-   "aufrufe": 1160,
+   "aufrufe": 1151,
    "stunden": 4.8,
    "abos": 2
   },
@@ -586,6 +579,13 @@
    "datum": "2026-11-24",
    "aufrufe": 420,
    "stunden": 0.8,
+   "abos": 2
+  },
+  {
+   "kanal": "schule",
+   "datum": "2026-11-25",
+   "aufrufe": 197,
+   "stunden": 0.4,
    "abos": 2
   }
  ],
@@ -606,7 +606,7 @@
    "titel": "Uplifting Violin Mix Energetic Electronic Violin Music for Focus & Motivation (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 249,
+   "aufrufe": 251,
    "stunden": 12.4,
    "abos": 1,
    "wiedergabe_pct": 26.3,
@@ -620,7 +620,7 @@
    "aufrufe": 193,
    "stunden": 11.4,
    "abos": 1,
-   "wiedergabe_pct": 42.7,
+   "wiedergabe_pct": 42.3,
    "kategorie": "Violine"
   },
   {
@@ -661,10 +661,10 @@
    "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 147,
+   "aufrufe": 149,
    "stunden": 7.3,
    "abos": 1,
-   "wiedergabe_pct": 44.2,
+   "wiedergabe_pct": 42.9,
    "kategorie": "Violine"
   },
   {
@@ -672,7 +672,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 144,
+   "aufrufe": 145,
    "stunden": 1.4,
    "abos": 2,
    "wiedergabe_pct": 142.8,
@@ -683,10 +683,10 @@
    "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
    "typ": "Video",
    "laenge": "13:33",
-   "aufrufe": 142,
-   "stunden": 7.7,
+   "aufrufe": 143,
+   "stunden": 8.0,
    "abos": 0,
-   "wiedergabe_pct": 27.5,
+   "wiedergabe_pct": 27.1,
    "kategorie": "Violine"
   },
   {
@@ -694,10 +694,10 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 3 & 4 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 123,
-   "stunden": 7.2,
+   "aufrufe": 125,
+   "stunden": 7.3,
    "abos": 0,
-   "wiedergabe_pct": 46.0,
+   "wiedergabe_pct": 46.1,
    "kategorie": "Violine"
   },
   {
@@ -705,10 +705,10 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 93,
-   "stunden": 3.2,
+   "aufrufe": 95,
+   "stunden": 3.4,
    "abos": 0,
-   "wiedergabe_pct": 26.5,
+   "wiedergabe_pct": 26.2,
    "kategorie": "Violine"
   },
   {
@@ -738,10 +738,10 @@
    "titel": "Minecraft PS4 - Lederrüstung selber einfärben - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:19",
-   "aufrufe": 90,
-   "stunden": 1.2,
+   "aufrufe": 85,
+   "stunden": 1.1,
    "abos": 0,
-   "wiedergabe_pct": 43.7,
+   "wiedergabe_pct": 42.0,
    "kategorie": "Alte Videos"
   },
   {
@@ -749,10 +749,10 @@
    "titel": "Alles hat seinen Platz Aufräumlied für Kinder #Shorts",
    "typ": "Short",
    "laenge": "0:37",
-   "aufrufe": 78,
+   "aufrufe": 80,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 77.1,
+   "wiedergabe_pct": 77.7,
    "kategorie": "Kinderlied"
   },
   {
@@ -782,10 +782,10 @@
    "titel": "Minecraft PS4 - So baut man ein Enderportal - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:36",
-   "aufrufe": 41,
+   "aufrufe": 42,
    "stunden": 1.0,
    "abos": -1,
-   "wiedergabe_pct": 57.0,
+   "wiedergabe_pct": 54.3,
    "kategorie": "Alte Videos"
   },
   {
@@ -793,10 +793,10 @@
    "titel": "Vier Jahreszeiten Kinderlied zum Mitsingen #shorts",
    "typ": "Short",
    "laenge": "0:36",
-   "aufrufe": 40,
+   "aufrufe": 41,
    "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 133.1,
+   "wiedergabe_pct": 125.5,
    "kategorie": "Kinderlied"
   },
   {
@@ -829,7 +829,7 @@
    "aufrufe": 37,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 23.1,
+   "wiedergabe_pct": 23.2,
    "kategorie": "Alte Videos"
   },
   {
@@ -837,7 +837,7 @@
    "titel": "Enderportal bauen Minecraft-Tipp für Kinder #shorts",
    "typ": "Short",
    "laenge": "2:36",
-   "aufrufe": 32,
+   "aufrufe": 33,
    "stunden": 0.2,
    "abos": 0,
    "wiedergabe_pct": 33.6,
@@ -848,10 +848,10 @@
    "titel": "Sieben Tage hat die Woche Wochentage lernen – Kinderlied #shorts",
    "typ": "Short",
    "laenge": "0:34",
-   "aufrufe": 25,
+   "aufrufe": 27,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 56.1,
+   "wiedergabe_pct": 61.6,
    "kategorie": "Kinderlied"
   },
   {
@@ -892,10 +892,10 @@
    "titel": "Alles hat seinen Platz Aufräumlied für Kinder zum Mitsingen",
    "typ": "Video",
    "laenge": "2:59",
-   "aufrufe": 11,
+   "aufrufe": 13,
    "stunden": 0.1,
    "abos": -2,
-   "wiedergabe_pct": 20.0,
+   "wiedergabe_pct": 19.2,
    "kategorie": "Kinderlied"
   },
   {
@@ -903,10 +903,10 @@
    "titel": "Unterstützung & Widerstand einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 723,
+   "aufrufe": 728,
    "stunden": 1.8,
    "abos": 3,
-   "wiedergabe_pct": 88.5,
+   "wiedergabe_pct": 88.7,
    "kategorie": "Chart-Schule"
   },
   {
@@ -914,10 +914,10 @@
    "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 324,
+   "aufrufe": 325,
    "stunden": 2.7,
    "abos": 0,
-   "wiedergabe_pct": 345.8,
+   "wiedergabe_pct": 336.1,
    "kategorie": "Chart-Schule"
   },
   {
@@ -936,10 +936,10 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 290,
-   "stunden": 0.9,
+   "aufrufe": 293,
+   "stunden": 1.0,
    "abos": 0,
-   "wiedergabe_pct": 53.2,
+   "wiedergabe_pct": 52,
    "kategorie": "GTA-Schule"
   },
   {
@@ -947,10 +947,10 @@
    "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 279,
+   "aufrufe": 280,
    "stunden": 0.5,
-   "abos": 0,
-   "wiedergabe_pct": 90.2,
+   "abos": 1,
+   "wiedergabe_pct": 88.8,
    "kategorie": "Chart-Schule"
   },
   {
@@ -958,10 +958,10 @@
    "titel": "Ausbruch & Retest einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 171,
+   "aufrufe": 173,
    "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 76.6,
+   "wiedergabe_pct": 82.1,
    "kategorie": "Chart-Schule"
   },
   {
@@ -980,10 +980,10 @@
    "titel": "So funktionieren GTA-Missionen",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 85,
+   "aufrufe": 86,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 28.1,
+   "wiedergabe_pct": 31.5,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1010,6 +1010,17 @@
   },
   {
    "kanal": "schule",
+   "titel": "Abwärtstrend erkennen: tiefere Hochs & Tiefs",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 78,
+   "stunden": 0.1,
+   "abos": 1,
+   "wiedergabe_pct": 102.1,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
    "titel": "GTA V: Die unglaublichen Rekordzahlen",
    "typ": "Short",
    "laenge": "0:41",
@@ -1021,24 +1032,13 @@
   },
   {
    "kanal": "schule",
-   "titel": "Abwärtstrend erkennen: tiefere Hochs & Tiefs",
-   "typ": "Short",
-   "laenge": "0:21",
-   "aufrufe": 72,
-   "stunden": 0.0,
-   "abos": 0,
-   "wiedergabe_pct": 205.2,
-   "kategorie": "Chart-Schule"
-  },
-  {
-   "kanal": "schule",
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 61,
+   "aufrufe": 63,
    "stunden": 0.6,
    "abos": 0,
-   "wiedergabe_pct": 254.0,
+   "wiedergabe_pct": 238.0,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1046,10 +1046,10 @@
    "titel": "Trendlinie einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 52,
+   "aufrufe": 54,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 82.0,
+   "wiedergabe_pct": 85.3,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1057,10 +1057,10 @@
    "titel": "Trendkanal einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 43,
-   "stunden": 0.0,
+   "aufrufe": 46,
+   "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 111.8,
+   "wiedergabe_pct": 85.9,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1068,7 +1068,7 @@
    "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 22,
+   "aufrufe": 27,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 0,
@@ -1079,10 +1079,10 @@
    "titel": "RAGE-Engine einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 16,
+   "aufrufe": 17,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 55.4,
+   "wiedergabe_pct": 56.9,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1109,10 +1109,21 @@
   },
   {
    "kanal": "schule",
+   "titel": "Stop-Hunt & Liquidität einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 15,
+   "stunden": 0.0,
+   "abos": 0,
+   "wiedergabe_pct": 0,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
    "titel": "San Andreas: 3 Städte erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 12,
+   "aufrufe": 13,
    "stunden": 0.1,
    "abos": 0,
    "wiedergabe_pct": 94.8,
@@ -1123,7 +1134,7 @@
    "titel": "Leonida: Die Karte von GTA VI",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 11,
+   "aufrufe": 12,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 23.2,
@@ -1145,7 +1156,7 @@
    "titel": "Wer steckt hinter GTA?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 5,
+   "aufrufe": 6,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 20.8,
@@ -1156,17 +1167,6 @@
    "titel": "Fehlausbruch: So erkennst du die Bullenfalle",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 1,
-   "stunden": 0.0,
-   "abos": 0,
-   "wiedergabe_pct": 0,
-   "kategorie": "Chart-Schule"
-  },
-  {
-   "kanal": "schule",
-   "titel": "Stop-Hunt & Liquidität einfach erklärt",
-   "typ": "Short",
-   "laenge": "0:41",
    "aufrufe": 1,
    "stunden": 0.0,
    "abos": 0,
@@ -1359,17 +1359,17 @@
   {
    "kanal": "music",
    "quelle": "Videovorschläge",
-   "aufrufe": 374
+   "aufrufe": 379
   },
   {
    "kanal": "music",
    "quelle": "Startseite & Abos",
-   "aufrufe": 327
+   "aufrufe": 338
   },
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 300
+   "aufrufe": 304
   },
   {
    "kanal": "music",
@@ -1379,12 +1379,12 @@
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 75
+   "aufrufe": 76
   },
   {
    "kanal": "music",
    "quelle": "Extern",
-   "aufrufe": 47
+   "aufrufe": 50
   },
   {
    "kanal": "music",
@@ -1408,13 +1408,13 @@
   },
   {
    "kanal": "kids",
-   "quelle": "Shorts-Feed",
-   "aufrufe": 124
+   "quelle": "Extern",
+   "aufrufe": 125
   },
   {
    "kanal": "kids",
-   "quelle": "Extern",
-   "aufrufe": 122
+   "quelle": "Shorts-Feed",
+   "aufrufe": 124
   },
   {
    "kanal": "kids",
@@ -1424,7 +1424,7 @@
   {
    "kanal": "kids",
    "quelle": "YouTube-Suche",
-   "aufrufe": 102
+   "aufrufe": 101
   },
   {
    "kanal": "kids",
@@ -1444,7 +1444,7 @@
   {
    "kanal": "kids",
    "quelle": "Playlists",
-   "aufrufe": 38
+   "aufrufe": 37
   },
   {
    "kanal": "kids",
@@ -1464,22 +1464,22 @@
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 1791
+   "aufrufe": 1882
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 497
+   "aufrufe": 565
   },
   {
    "kanal": "schule",
    "quelle": "Kanalseite",
-   "aufrufe": 169
+   "aufrufe": 196
   },
   {
    "kanal": "schule",
    "quelle": "Extern",
-   "aufrufe": 14
+   "aufrufe": 19
   },
   {
    "kanal": "schule",
@@ -1499,67 +1499,67 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 141
+   "aufrufe": 147
   }
  ],
  "ueberblick": [
   {
    "kanal": "music",
-   "abos_gesamt": 16,
-   "abos_28t": 10,
-   "aufrufe_28t": 1960,
-   "stunden_28t": 44.1,
-   "aufrufe_gesamt": 2216,
-   "stunden_gesamt": 57.7,
+   "abos_gesamt": 17,
+   "abos_28t": 11,
+   "aufrufe_28t": 1945,
+   "stunden_28t": 42.7,
+   "aufrufe_gesamt": 2230,
+   "stunden_gesamt": 58.3,
    "gesehen_pct_28t": 37.9,
-   "aufrufe_jetzt": 2220,
+   "aufrufe_jetzt": 2230,
    "abos_jetzt": 17,
    "videos_jetzt": 13,
-   "jetzt_um": "27.11. um 13:28 Uhr"
+   "jetzt_um": "28.11. um 00:29 Uhr"
   },
   {
    "kanal": "kids",
-   "abos_gesamt": 201627,
-   "abos_28t": -95,
-   "aufrufe_28t": 677,
-   "stunden_28t": 7.6,
-   "aufrufe_gesamt": 81407288,
+   "abos_gesamt": 201621,
+   "abos_28t": -98,
+   "aufrufe_28t": 678,
+   "stunden_28t": 7.5,
+   "aufrufe_gesamt": 81407299,
    "stunden_gesamt": 13390942.6,
-   "gesehen_pct_28t": 32.2,
-   "aufrufe_jetzt": 81407288,
+   "gesehen_pct_28t": 31.8,
+   "aufrufe_jetzt": 81407299,
    "abos_jetzt": 201000,
    "videos_jetzt": 70,
-   "jetzt_um": "27.11. um 13:28 Uhr"
+   "jetzt_um": "28.11. um 00:29 Uhr"
   },
   {
    "kanal": "schule",
-   "abos_gesamt": 5,
-   "abos_28t": 5,
-   "aufrufe_28t": 2632,
-   "stunden_28t": 8.7,
-   "aufrufe_gesamt": 2867,
-   "stunden_gesamt": 8.7,
-   "gesehen_pct_28t": 94.7,
-   "aufrufe_jetzt": 2883,
-   "abos_jetzt": 8,
-   "videos_jetzt": 23,
-   "jetzt_um": "27.11. um 13:28 Uhr"
+   "abos_gesamt": 7,
+   "abos_28t": 7,
+   "aufrufe_28t": 2820,
+   "stunden_28t": 9.1,
+   "aufrufe_gesamt": 2876,
+   "stunden_gesamt": 9.1,
+   "gesehen_pct_28t": 93.5,
+   "aufrufe_jetzt": 2932,
+   "abos_jetzt": 9,
+   "videos_jetzt": 24,
+   "jetzt_um": "28.11. um 00:29 Uhr"
   }
  ],
- "stand": "27.11.2026",
+ "stand": "28.11.2026",
  "zeitraum": {
   "music": {
-   "von": "2026-10-28",
-   "bis": "2026-11-24"
+   "von": "2026-10-29",
+   "bis": "2026-11-25"
   },
   "kids": {
-   "von": "2026-10-28",
-   "bis": "2026-11-24"
+   "von": "2026-10-29",
+   "bis": "2026-11-25"
   },
   "schule": {
-   "von": "2026-10-28",
-   "bis": "2026-11-24"
+   "von": "2026-10-29",
+   "bis": "2026-11-25"
   }
  },
- "aktualisiert": "27.11.2026 um 13:28 Uhr"
+ "aktualisiert": "28.11.2026 um 00:29 Uhr"
 }
