@@ -628,7 +628,7 @@
    "titel": "Für Elise – Epic Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 180,
+   "aufrufe": 181,
    "stunden": 0.7,
    "abos": 3,
    "wiedergabe_pct": 51.4,
@@ -672,7 +672,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 143,
+   "aufrufe": 144,
    "stunden": 1.4,
    "abos": 2,
    "wiedergabe_pct": 142.8,
@@ -727,7 +727,7 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 3 & 4 #shorts",
    "typ": "Short",
    "laenge": "0:47",
-   "aufrufe": 87,
+   "aufrufe": 88,
    "stunden": 0.2,
    "abos": 0,
    "wiedergabe_pct": 37.8,
@@ -914,7 +914,7 @@
    "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 321,
+   "aufrufe": 324,
    "stunden": 2.7,
    "abos": 0,
    "wiedergabe_pct": 345.8,
@@ -936,7 +936,7 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 287,
+   "aufrufe": 290,
    "stunden": 0.9,
    "abos": 0,
    "wiedergabe_pct": 53.2,
@@ -947,7 +947,7 @@
    "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 277,
+   "aufrufe": 279,
    "stunden": 0.5,
    "abos": 0,
    "wiedergabe_pct": 90.2,
@@ -1068,7 +1068,7 @@
    "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 20,
+   "aufrufe": 22,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 0,
@@ -1101,7 +1101,7 @@
    "titel": "Vice City = Miami?",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 15,
+   "aufrufe": 16,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 39.4,
@@ -1123,7 +1123,7 @@
    "titel": "Leonida: Die Karte von GTA VI",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 10,
+   "aufrufe": 11,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 23.2,
@@ -1464,12 +1464,12 @@
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 1799
+   "aufrufe": 1791
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 496
+   "aufrufe": 497
   },
   {
    "kanal": "schule",
@@ -1479,7 +1479,7 @@
   {
    "kanal": "schule",
    "quelle": "Extern",
-   "aufrufe": 15
+   "aufrufe": 14
   },
   {
    "kanal": "schule",
@@ -1499,7 +1499,7 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 142
+   "aufrufe": 141
   }
  ],
  "ueberblick": [
@@ -1509,13 +1509,13 @@
    "abos_28t": 10,
    "aufrufe_28t": 1960,
    "stunden_28t": 44.1,
-   "aufrufe_gesamt": 2206,
+   "aufrufe_gesamt": 2216,
    "stunden_gesamt": 57.7,
    "gesehen_pct_28t": 37.9,
-   "aufrufe_jetzt": 2217,
+   "aufrufe_jetzt": 2220,
    "abos_jetzt": 17,
    "videos_jetzt": 13,
-   "jetzt_um": "27.11. um 02:45 Uhr"
+   "jetzt_um": "27.11. um 13:28 Uhr"
   },
   {
    "kanal": "kids",
@@ -1529,7 +1529,7 @@
    "aufrufe_jetzt": 81407288,
    "abos_jetzt": 201000,
    "videos_jetzt": 70,
-   "jetzt_um": "27.11. um 02:45 Uhr"
+   "jetzt_um": "27.11. um 13:28 Uhr"
   },
   {
    "kanal": "schule",
@@ -1537,13 +1537,13 @@
    "abos_28t": 5,
    "aufrufe_28t": 2632,
    "stunden_28t": 8.7,
-   "aufrufe_gesamt": 2817,
+   "aufrufe_gesamt": 2867,
    "stunden_gesamt": 8.7,
    "gesehen_pct_28t": 94.7,
-   "aufrufe_jetzt": 2871,
+   "aufrufe_jetzt": 2883,
    "abos_jetzt": 8,
    "videos_jetzt": 23,
-   "jetzt_um": "27.11. um 02:46 Uhr"
+   "jetzt_um": "27.11. um 13:28 Uhr"
   }
  ],
  "stand": "27.11.2026",
@@ -1561,5 +1561,5 @@
    "bis": "2026-11-24"
   }
  },
- "aktualisiert": "27.11.2026 um 02:46 Uhr"
+ "aktualisiert": "27.11.2026 um 13:28 Uhr"
 }
