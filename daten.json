@@ -2,13 +2,6 @@
  "taeglich": [
   {
    "kanal": "music",
-   "datum": "2026-10-27",
-   "aufrufe": 28,
-   "stunden": 1.6,
-   "abos": 0
-  },
-  {
-   "kanal": "music",
    "datum": "2026-10-28",
    "aufrufe": 39,
    "stunden": 2.1,
@@ -197,10 +190,10 @@
    "abos": 0
   },
   {
-   "kanal": "kids",
-   "datum": "2026-10-27",
-   "aufrufe": 10,
-   "stunden": 0.2,
+   "kanal": "music",
+   "datum": "2026-11-24",
+   "aufrufe": 13,
+   "stunden": 0.5,
    "abos": 0
   },
   {
@@ -393,11 +386,11 @@
    "abos": -1
   },
   {
-   "kanal": "schule",
-   "datum": "2026-10-27",
-   "aufrufe": 0,
+   "kanal": "kids",
+   "datum": "2026-11-24",
+   "aufrufe": 12,
    "stunden": 0.0,
-   "abos": 0
+   "abos": -5
   },
   {
    "kanal": "schule",
@@ -587,6 +580,13 @@
    "aufrufe": 1160,
    "stunden": 4.8,
    "abos": 2
+  },
+  {
+   "kanal": "schule",
+   "datum": "2026-11-24",
+   "aufrufe": 420,
+   "stunden": 0.8,
+   "abos": 2
   }
  ],
  "videos": [
@@ -617,7 +617,7 @@
    "titel": "Für Elise Violin Remix Legends Rising Part 1 & 2 – Epic Classical Violin Music Focus & Motivation",
    "typ": "Video",
    "laenge": "9:56",
-   "aufrufe": 192,
+   "aufrufe": 193,
    "stunden": 11.4,
    "abos": 1,
    "wiedergabe_pct": 42.7,
@@ -661,21 +661,10 @@
    "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 145,
-   "stunden": 7.2,
+   "aufrufe": 147,
+   "stunden": 7.3,
    "abos": 1,
-   "wiedergabe_pct": 45.7,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
-   "typ": "Video",
-   "laenge": "13:33",
-   "aufrufe": 141,
-   "stunden": 7.7,
-   "abos": 0,
-   "wiedergabe_pct": 27.9,
+   "wiedergabe_pct": 44.2,
    "kategorie": "Violine"
   },
   {
@@ -683,10 +672,21 @@
    "titel": "Csárdás – Fiery Gypsy Violin #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 137,
+   "aufrufe": 143,
    "stunden": 1.4,
    "abos": 2,
    "wiedergabe_pct": 142.8,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
+   "typ": "Video",
+   "laenge": "13:33",
+   "aufrufe": 142,
+   "stunden": 7.7,
+   "abos": 0,
+   "wiedergabe_pct": 27.5,
    "kategorie": "Violine"
   },
   {
@@ -695,20 +695,9 @@
    "typ": "Video",
    "laenge": "9:56",
    "aufrufe": 123,
-   "stunden": 7.1,
+   "stunden": 7.2,
    "abos": 0,
-   "wiedergabe_pct": 45.9,
-   "kategorie": "Violine"
-  },
-  {
-   "kanal": "music",
-   "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
-   "typ": "Short",
-   "laenge": "0:51",
-   "aufrufe": 91,
-   "stunden": 1.1,
-   "abos": 0,
-   "wiedergabe_pct": 236.4,
+   "wiedergabe_pct": 46.0,
    "kategorie": "Violine"
   },
   {
@@ -716,10 +705,21 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 87,
-   "stunden": 2.9,
+   "aufrufe": 93,
+   "stunden": 3.2,
    "abos": 0,
-   "wiedergabe_pct": 24.7,
+   "wiedergabe_pct": 26.5,
+   "kategorie": "Violine"
+  },
+  {
+   "kanal": "music",
+   "titel": "Csárdás – Fiery Gypsy Violin Remix #shorts",
+   "typ": "Short",
+   "laenge": "0:51",
+   "aufrufe": 92,
+   "stunden": 1.1,
+   "abos": 0,
+   "wiedergabe_pct": 236.4,
    "kategorie": "Violine"
   },
   {
@@ -738,10 +738,10 @@
    "titel": "Minecraft PS4 - Lederrüstung selber einfärben - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:19",
-   "aufrufe": 93,
+   "aufrufe": 90,
    "stunden": 1.2,
    "abos": 0,
-   "wiedergabe_pct": 43.9,
+   "wiedergabe_pct": 43.7,
    "kategorie": "Alte Videos"
   },
   {
@@ -782,10 +782,10 @@
    "titel": "Minecraft PS4 - So baut man ein Enderportal - Tipps und Tricks",
    "typ": "Video",
    "laenge": "2:36",
-   "aufrufe": 45,
-   "stunden": 1.1,
+   "aufrufe": 41,
+   "stunden": 1.0,
    "abos": -1,
-   "wiedergabe_pct": 58.0,
+   "wiedergabe_pct": 57.0,
    "kategorie": "Alte Videos"
   },
   {
@@ -845,6 +845,17 @@
   },
   {
    "kanal": "kids",
+   "titel": "Sieben Tage hat die Woche Wochentage lernen – Kinderlied #shorts",
+   "typ": "Short",
+   "laenge": "0:34",
+   "aufrufe": 25,
+   "stunden": 0.1,
+   "abos": 0,
+   "wiedergabe_pct": 56.1,
+   "kategorie": "Kinderlied"
+  },
+  {
+   "kanal": "kids",
    "titel": "Schrubbi-Schrubb Zähne putzen mit Spaß! | Kinderlied zum Mitsingen",
    "typ": "Video",
    "laenge": "3:01",
@@ -867,46 +878,46 @@
   },
   {
    "kanal": "kids",
-   "titel": "Sieben Tage hat die Woche Wochentage lernen – Kinderlied #shorts",
-   "typ": "Short",
-   "laenge": "0:34",
-   "aufrufe": 17,
-   "stunden": 0.0,
-   "abos": 0,
-   "wiedergabe_pct": 53.7,
-   "kategorie": "Kinderlied"
-  },
-  {
-   "kanal": "kids",
    "titel": "Minecraft PS4 - Tiere zähmen - Tipps und Tricks",
    "typ": "Video",
    "laenge": "4:28",
-   "aufrufe": 15,
-   "stunden": 0.3,
+   "aufrufe": 14,
+   "stunden": 0.2,
    "abos": 0,
-   "wiedergabe_pct": 37.0,
+   "wiedergabe_pct": 38.6,
    "kategorie": "Alte Videos"
   },
   {
    "kanal": "kids",
-   "titel": "Minecraft PS4- wie man Schafe färben kann - Tipps und Tricks",
+   "titel": "Alles hat seinen Platz Aufräumlied für Kinder zum Mitsingen",
    "typ": "Video",
-   "laenge": "2:27",
-   "aufrufe": 10,
-   "stunden": 0.2,
-   "abos": 0,
-   "wiedergabe_pct": 58.6,
-   "kategorie": "Alte Videos"
+   "laenge": "2:59",
+   "aufrufe": 11,
+   "stunden": 0.1,
+   "abos": -2,
+   "wiedergabe_pct": 20.0,
+   "kategorie": "Kinderlied"
   },
   {
    "kanal": "schule",
    "titel": "Unterstützung & Widerstand einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 721,
-   "stunden": 1.6,
-   "abos": 2,
-   "wiedergabe_pct": 91.0,
+   "aufrufe": 723,
+   "stunden": 1.8,
+   "abos": 3,
+   "wiedergabe_pct": 88.5,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:23",
+   "aufrufe": 321,
+   "stunden": 2.7,
+   "abos": 0,
+   "wiedergabe_pct": 345.8,
    "kategorie": "Chart-Schule"
   },
   {
@@ -917,29 +928,18 @@
    "aufrufe": 318,
    "stunden": 0.5,
    "abos": 0,
-   "wiedergabe_pct": 39.3,
+   "wiedergabe_pct": 39.2,
    "kategorie": "GTA-Schule"
-  },
-  {
-   "kanal": "schule",
-   "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
-   "typ": "Short",
-   "laenge": "0:23",
-   "aufrufe": 314,
-   "stunden": 2.6,
-   "abos": 0,
-   "wiedergabe_pct": 407.7,
-   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 284,
+   "aufrufe": 287,
    "stunden": 0.9,
    "abos": 0,
-   "wiedergabe_pct": 53.4,
+   "wiedergabe_pct": 53.2,
    "kategorie": "GTA-Schule"
   },
   {
@@ -947,10 +947,10 @@
    "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 276,
-   "stunden": 0.4,
+   "aufrufe": 277,
+   "stunden": 0.5,
    "abos": 0,
-   "wiedergabe_pct": 96.5,
+   "wiedergabe_pct": 90.2,
    "kategorie": "Chart-Schule"
   },
   {
@@ -958,10 +958,10 @@
    "titel": "Ausbruch & Retest einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 170,
-   "stunden": 0.0,
+   "aufrufe": 171,
+   "stunden": 0.3,
    "abos": 0,
-   "wiedergabe_pct": 46.5,
+   "wiedergabe_pct": 76.6,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1016,7 +1016,7 @@
    "aufrufe": 75,
    "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 52.8,
+   "wiedergabe_pct": 53.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1024,10 +1024,10 @@
    "titel": "Abwärtstrend erkennen: tiefere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 65,
+   "aufrufe": 72,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 0,
+   "wiedergabe_pct": 205.2,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1035,7 +1035,7 @@
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 59,
+   "aufrufe": 61,
    "stunden": 0.6,
    "abos": 0,
    "wiedergabe_pct": 254.0,
@@ -1046,10 +1046,10 @@
    "titel": "Trendlinie einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 50,
-   "stunden": 0.0,
+   "aufrufe": 52,
+   "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 81.9,
+   "wiedergabe_pct": 82.0,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1060,7 +1060,18 @@
    "aufrufe": 43,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 128.1,
+   "wiedergabe_pct": 111.8,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 20,
+   "stunden": 0.0,
+   "abos": 0,
+   "wiedergabe_pct": 0,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1069,9 +1080,9 @@
    "typ": "Short",
    "laenge": "0:41",
    "aufrufe": 16,
-   "stunden": 0.0,
+   "stunden": 0.1,
    "abos": 0,
-   "wiedergabe_pct": 49.7,
+   "wiedergabe_pct": 55.4,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1082,7 +1093,7 @@
    "aufrufe": 16,
    "stunden": 0.0,
    "abos": 0,
-   "wiedergabe_pct": 40.5,
+   "wiedergabe_pct": 34.3,
    "kategorie": "GTA-Schule"
   },
   {
@@ -1164,13 +1175,101 @@
   },
   {
    "kanal": "schule",
-   "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
+   "titel": "Drei schwarze Krähen einfach erklärt",
    "typ": "Short",
-   "laenge": "0:41",
-   "aufrufe": 1,
-   "stunden": 0.0,
+   "laenge": "0:22",
+   "aufrufe": 0,
+   "stunden": null,
    "abos": 0,
-   "wiedergabe_pct": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Umgekehrter Hammer einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:20",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Hanging Man einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Marubozu: Kerze ohne Dochte erklärt",
+   "typ": "Short",
+   "laenge": "0:22",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Tweezer Top einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:22",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Tweezer Bottom einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:21",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Harami-Kerzenmuster einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:20",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Morning Star: Wende nach oben erkennen",
+   "typ": "Short",
+   "laenge": "0:25",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Inside Bar einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:22",
+   "aufrufe": 0,
+   "stunden": null,
+   "abos": 0,
+   "wiedergabe_pct": null,
    "kategorie": "Chart-Schule"
   },
   {
@@ -1189,17 +1288,6 @@
    "titel": "Evening Star: Wende nach unten erkennen",
    "typ": "Short",
    "laenge": "0:26",
-   "aufrufe": 0,
-   "stunden": null,
-   "abos": 0,
-   "wiedergabe_pct": null,
-   "kategorie": "Chart-Schule"
-  },
-  {
-   "kanal": "schule",
-   "titel": "Morning Star: Wende nach oben erkennen",
-   "typ": "Short",
-   "laenge": "0:25",
    "aufrufe": 0,
    "stunden": null,
    "abos": 0,
@@ -1271,17 +1359,17 @@
   {
    "kanal": "music",
    "quelle": "Videovorschläge",
-   "aufrufe": 368
+   "aufrufe": 374
   },
   {
    "kanal": "music",
    "quelle": "Startseite & Abos",
-   "aufrufe": 324
+   "aufrufe": 327
   },
   {
    "kanal": "music",
    "quelle": "YouTube-Suche",
-   "aufrufe": 297
+   "aufrufe": 300
   },
   {
    "kanal": "music",
@@ -1291,7 +1379,7 @@
   {
    "kanal": "music",
    "quelle": "Playlists",
-   "aufrufe": 74
+   "aufrufe": 75
   },
   {
    "kanal": "music",
@@ -1320,13 +1408,13 @@
   },
   {
    "kanal": "kids",
-   "quelle": "Extern",
-   "aufrufe": 123
+   "quelle": "Shorts-Feed",
+   "aufrufe": 124
   },
   {
    "kanal": "kids",
-   "quelle": "Shorts-Feed",
-   "aufrufe": 117
+   "quelle": "Extern",
+   "aufrufe": 122
   },
   {
    "kanal": "kids",
@@ -1336,7 +1424,7 @@
   {
    "kanal": "kids",
    "quelle": "YouTube-Suche",
-   "aufrufe": 105
+   "aufrufe": 102
   },
   {
    "kanal": "kids",
@@ -1345,23 +1433,23 @@
   },
   {
    "kanal": "kids",
+   "quelle": "Benachrichtigungen",
+   "aufrufe": 41
+  },
+  {
+   "kanal": "kids",
    "quelle": "Videovorschläge",
    "aufrufe": 40
   },
   {
    "kanal": "kids",
-   "quelle": "Benachrichtigungen",
-   "aufrufe": 40
-  },
-  {
-   "kanal": "kids",
    "quelle": "Playlists",
-   "aufrufe": 39
+   "aufrufe": 38
   },
   {
    "kanal": "kids",
    "quelle": "Direkt/unbekannt",
-   "aufrufe": 29
+   "aufrufe": 28
   },
   {
    "kanal": "kids",
@@ -1376,27 +1464,32 @@
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 1524
+   "aufrufe": 1799
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 426
+   "aufrufe": 496
   },
   {
    "kanal": "schule",
    "quelle": "Kanalseite",
-   "aufrufe": 121
+   "aufrufe": 169
   },
   {
    "kanal": "schule",
    "quelle": "Extern",
-   "aufrufe": 14
+   "aufrufe": 15
   },
   {
    "kanal": "schule",
    "quelle": "Startseite & Abos",
-   "aufrufe": 5
+   "aufrufe": 8
+  },
+  {
+   "kanal": "schule",
+   "quelle": "Benachrichtigungen",
+   "aufrufe": 2
   },
   {
    "kanal": "schule",
@@ -1406,7 +1499,7 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 121
+   "aufrufe": 142
   }
  ],
  "ueberblick": [
@@ -1414,47 +1507,59 @@
    "kanal": "music",
    "abos_gesamt": 16,
    "abos_28t": 10,
-   "aufrufe_28t": 1975,
-   "stunden_28t": 45.3,
-   "aufrufe_gesamt": 2193,
-   "stunden_gesamt": 57.2,
-   "gesehen_pct_28t": 37.9
+   "aufrufe_28t": 1960,
+   "stunden_28t": 44.1,
+   "aufrufe_gesamt": 2206,
+   "stunden_gesamt": 57.7,
+   "gesehen_pct_28t": 37.9,
+   "aufrufe_jetzt": 2217,
+   "abos_jetzt": 17,
+   "videos_jetzt": 13,
+   "jetzt_um": "27.11. um 02:45 Uhr"
   },
   {
    "kanal": "kids",
-   "abos_gesamt": 201632,
-   "abos_28t": -90,
-   "aufrufe_28t": 675,
-   "stunden_28t": 7.8,
-   "aufrufe_gesamt": 81407276,
+   "abos_gesamt": 201627,
+   "abos_28t": -95,
+   "aufrufe_28t": 677,
+   "stunden_28t": 7.6,
+   "aufrufe_gesamt": 81407288,
    "stunden_gesamt": 13390942.6,
-   "gesehen_pct_28t": 33.1
+   "gesehen_pct_28t": 32.2,
+   "aufrufe_jetzt": 81407288,
+   "abos_jetzt": 201000,
+   "videos_jetzt": 70,
+   "jetzt_um": "27.11. um 02:45 Uhr"
   },
   {
    "kanal": "schule",
-   "abos_gesamt": 3,
-   "abos_28t": 3,
-   "aufrufe_28t": 2212,
-   "stunden_28t": 7.9,
-   "aufrufe_gesamt": 2764,
-   "stunden_gesamt": 7.9,
-   "gesehen_pct_28t": 97.5
+   "abos_gesamt": 5,
+   "abos_28t": 5,
+   "aufrufe_28t": 2632,
+   "stunden_28t": 8.7,
+   "aufrufe_gesamt": 2817,
+   "stunden_gesamt": 8.7,
+   "gesehen_pct_28t": 94.7,
+   "aufrufe_jetzt": 2871,
+   "abos_jetzt": 8,
+   "videos_jetzt": 23,
+   "jetzt_um": "27.11. um 02:46 Uhr"
   }
  ],
- "stand": "26.11.2026",
+ "stand": "27.11.2026",
  "zeitraum": {
   "music": {
-   "von": "2026-10-27",
-   "bis": "2026-11-23"
+   "von": "2026-10-28",
+   "bis": "2026-11-24"
   },
   "kids": {
-   "von": "2026-10-27",
-   "bis": "2026-11-23"
+   "von": "2026-10-28",
+   "bis": "2026-11-24"
   },
   "schule": {
-   "von": "2026-10-27",
-   "bis": "2026-11-23"
+   "von": "2026-10-28",
+   "bis": "2026-11-24"
   }
  },
- "aktualisiert": "26.11.2026 um 14:55 Uhr"
+ "aktualisiert": "27.11.2026 um 02:46 Uhr"
 }
