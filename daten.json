@@ -606,7 +606,7 @@
    "titel": "Uplifting Violin Mix Energetic Electronic Violin Music for Focus & Motivation (12 Min)",
    "typ": "Video",
    "laenge": "12:22",
-   "aufrufe": 251,
+   "aufrufe": 252,
    "stunden": 12.4,
    "abos": 1,
    "wiedergabe_pct": 26.3,
@@ -628,7 +628,7 @@
    "titel": "Für Elise – Epic Violin Remix #shorts",
    "typ": "Short",
    "laenge": "0:56",
-   "aufrufe": 181,
+   "aufrufe": 182,
    "stunden": 0.7,
    "abos": 3,
    "wiedergabe_pct": 51.4,
@@ -661,7 +661,7 @@
    "titel": "In the Hall of the Mountain King Epic Violin Remix – Powerful Music for Motivation & Focus",
    "typ": "Video",
    "laenge": "9:55",
-   "aufrufe": 149,
+   "aufrufe": 150,
    "stunden": 7.3,
    "abos": 1,
    "wiedergabe_pct": 42.9,
@@ -683,7 +683,7 @@
    "titel": "Epic Violin Mix Powerful Cinematic Violin Music for Motivation & Focus (13 Min)",
    "typ": "Video",
    "laenge": "13:33",
-   "aufrufe": 143,
+   "aufrufe": 144,
    "stunden": 8.0,
    "abos": 0,
    "wiedergabe_pct": 27.1,
@@ -705,7 +705,7 @@
    "titel": "Csárdás – Fiery Gypsy Violin Remix Hall of Legends | 10 Minutes [4K]",
    "typ": "Video",
    "laenge": "9:54",
-   "aufrufe": 95,
+   "aufrufe": 97,
    "stunden": 3.4,
    "abos": 0,
    "wiedergabe_pct": 26.2,
@@ -914,7 +914,7 @@
    "titel": "Kerzenchart lesen: Die Kerze einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 325,
+   "aufrufe": 329,
    "stunden": 2.7,
    "abos": 0,
    "wiedergabe_pct": 336.1,
@@ -936,7 +936,7 @@
    "titel": "Warum ist GTA ab 18? USK erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 293,
+   "aufrufe": 296,
    "stunden": 1.0,
    "abos": 0,
    "wiedergabe_pct": 52,
@@ -947,7 +947,7 @@
    "titel": "Aufwärtstrend erkennen: höhere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 280,
+   "aufrufe": 282,
    "stunden": 0.5,
    "abos": 1,
    "wiedergabe_pct": 88.8,
@@ -1013,7 +1013,7 @@
    "titel": "Abwärtstrend erkennen: tiefere Hochs & Tiefs",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 78,
+   "aufrufe": 79,
    "stunden": 0.1,
    "abos": 1,
    "wiedergabe_pct": 102.1,
@@ -1035,7 +1035,7 @@
    "titel": "Fahndungssterne in GTA erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 63,
+   "aufrufe": 64,
    "stunden": 0.6,
    "abos": 0,
    "wiedergabe_pct": 238.0,
@@ -1046,7 +1046,7 @@
    "titel": "Trendlinie einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:21",
-   "aufrufe": 54,
+   "aufrufe": 55,
    "stunden": 0.1,
    "abos": 0,
    "wiedergabe_pct": 85.3,
@@ -1057,7 +1057,7 @@
    "titel": "Trendkanal einzeichnen einfach erklärt",
    "typ": "Short",
    "laenge": "0:23",
-   "aufrufe": 46,
+   "aufrufe": 47,
    "stunden": 0.1,
    "abos": 0,
    "wiedergabe_pct": 85.9,
@@ -1068,7 +1068,18 @@
    "titel": "BOS & CHoCH: Marktstruktur einfach erklärt",
    "typ": "Short",
    "laenge": "0:41",
-   "aufrufe": 27,
+   "aufrufe": 30,
+   "stunden": 0.0,
+   "abos": 0,
+   "wiedergabe_pct": 0,
+   "kategorie": "Chart-Schule"
+  },
+  {
+   "kanal": "schule",
+   "titel": "Stop-Hunt & Liquidität einfach erklärt",
+   "typ": "Short",
+   "laenge": "0:41",
+   "aufrufe": 19,
    "stunden": 0.0,
    "abos": 0,
    "wiedergabe_pct": 0,
@@ -1106,17 +1117,6 @@
    "abos": 0,
    "wiedergabe_pct": 39.4,
    "kategorie": "GTA-Schule"
-  },
-  {
-   "kanal": "schule",
-   "titel": "Stop-Hunt & Liquidität einfach erklärt",
-   "typ": "Short",
-   "laenge": "0:41",
-   "aufrufe": 15,
-   "stunden": 0.0,
-   "abos": 0,
-   "wiedergabe_pct": 0,
-   "kategorie": "Chart-Schule"
   },
   {
    "kanal": "schule",
@@ -1464,12 +1464,12 @@
   {
    "kanal": "schule",
    "quelle": "Shorts-Feed",
-   "aufrufe": 1882
+   "aufrufe": 1880
   },
   {
    "kanal": "schule",
    "quelle": "YouTube-Suche",
-   "aufrufe": 565
+   "aufrufe": 567
   },
   {
    "kanal": "schule",
@@ -1499,7 +1499,7 @@
   {
    "kanal": "schule",
    "quelle": "Sonstiges",
-   "aufrufe": 147
+   "aufrufe": 146
   }
  ],
  "ueberblick": [
@@ -1509,13 +1509,13 @@
    "abos_28t": 11,
    "aufrufe_28t": 1945,
    "stunden_28t": 42.7,
-   "aufrufe_gesamt": 2230,
+   "aufrufe_gesamt": 2231,
    "stunden_gesamt": 58.3,
    "gesehen_pct_28t": 37.9,
-   "aufrufe_jetzt": 2230,
+   "aufrufe_jetzt": 2236,
    "abos_jetzt": 17,
    "videos_jetzt": 13,
-   "jetzt_um": "28.11. um 00:29 Uhr"
+   "jetzt_um": "28.11. um 08:53 Uhr"
   },
   {
    "kanal": "kids",
@@ -1529,7 +1529,7 @@
    "aufrufe_jetzt": 81407299,
    "abos_jetzt": 201000,
    "videos_jetzt": 70,
-   "jetzt_um": "28.11. um 00:29 Uhr"
+   "jetzt_um": "28.11. um 08:53 Uhr"
   },
   {
    "kanal": "schule",
@@ -1537,13 +1537,13 @@
    "abos_28t": 7,
    "aufrufe_28t": 2820,
    "stunden_28t": 9.1,
-   "aufrufe_gesamt": 2876,
+   "aufrufe_gesamt": 2931,
    "stunden_gesamt": 9.1,
    "gesehen_pct_28t": 93.5,
-   "aufrufe_jetzt": 2932,
+   "aufrufe_jetzt": 2952,
    "abos_jetzt": 9,
    "videos_jetzt": 24,
-   "jetzt_um": "28.11. um 00:29 Uhr"
+   "jetzt_um": "28.11. um 08:54 Uhr"
   }
  ],
  "stand": "28.11.2026",
@@ -1561,5 +1561,5 @@
    "bis": "2026-11-25"
   }
  },
- "aktualisiert": "28.11.2026 um 00:29 Uhr"
+ "aktualisiert": "28.11.2026 um 08:54 Uhr"
 }
